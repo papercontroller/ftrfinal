@@ -1,0 +1,23 @@
+global:
+  scrape_interval: 2s
+  evaluation_interval: 2s
+
+rule_files:
+  - "alerts.yml"
+
+scrape_configs:
+  - job_name: "api-gateway"
+    static_configs:
+      - targets: ["api-gateway:8080"]
+
+  - job_name: "student-service"
+    static_configs:
+      - targets: ["student-service-1:8081", "student-service-2:8081"]
+
+  - job_name: "payment-service"
+    static_configs:
+      - targets: ["payment-service-1:8082", "payment-service-2:8082"]
+
+  - job_name: "academic-service"
+    static_configs:
+      - targets: ["academic-service-1:8083", "academic-service-2:8083"]

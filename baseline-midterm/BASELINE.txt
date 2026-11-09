@@ -1,0 +1,4 @@
+Unmodified copy of github.com/papercontroller/midterm-ftr at commit 871967a.
+Used only as the baseline for the endterm comparison. Do not edit.
+
+Run: docker compose -p midterm up -d --build

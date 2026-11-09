@@ -1,0 +1,210 @@
+# Endterm deployment. Only the gateway, Prometheus and Grafana are published to
+# the host; backends and the database stay on the internal network, so the
+# identity headers set by the gateway cannot be forged from outside.
+# Secrets come from .env (see .env.example).
+
+x-go-service: &go-service
+  restart: always
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+
+
+services:
+  api-gateway:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: gateway
+    container_name: api-gateway
+    environment:
+      - SERVER_ID=api-gateway-node1
+      - PORT=8080
+      - STUDENT_SERVICE_URL=http://student-service-1:8081,http://student-service-2:8081
+      - PAYMENT_SERVICE_URL=http://payment-service-1:8082,http://payment-service-2:8082
+      - ACADEMIC_SERVICE_URLS=http://academic-service-1:8083,http://academic-service-2:8083
+      - JWT_SECRET=${JWT_SECRET:?set in .env}
+      - DEMO_PASSWORD=${DEMO_PASSWORD:?set in .env}
+      - RATE_LIMIT_RPS=${RATE_LIMIT_RPS:-20}
+      - RATE_LIMIT_BURST=${RATE_LIMIT_BURST:-50}
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      - student-service-1
+      - student-service-2
+      - payment-service-1
+      - payment-service-2
+      - academic-service-1
+      - academic-service-2
+
+  student-service-1:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: student-service
+    container_name: student-service-1
+    environment:
+      - SERVER_ID=student-replica-1
+      - PORT=8081
+      - DB_CONN=postgres://uis_user:${DB_PASSWORD:?set in .env}@db:5432/uis_db?sslmode=disable
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      db:
+        condition: service_healthy
+
+  student-service-2:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: student-service
+    container_name: student-service-2
+    environment:
+      - SERVER_ID=student-replica-2
+      - PORT=8081
+      - DB_CONN=postgres://uis_user:${DB_PASSWORD:?set in .env}@db:5432/uis_db?sslmode=disable
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      db:
+        condition: service_healthy
+
+  payment-service-1:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: payment-service
+    container_name: payment-service-1
+    environment:
+      - SERVER_ID=payment-replica-1
+      - PORT=8082
+      - DB_CONN=postgres://uis_user:${DB_PASSWORD:?set in .env}@db:5432/uis_db?sslmode=disable
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      db:
+        condition: service_healthy
+
+  payment-service-2:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: payment-service
+    container_name: payment-service-2
+    environment:
+      - SERVER_ID=payment-replica-2
+      - PORT=8082
+      - DB_CONN=postgres://uis_user:${DB_PASSWORD:?set in .env}@db:5432/uis_db?sslmode=disable
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      db:
+        condition: service_healthy
+
+  academic-service-1:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: academic-service
+    container_name: academic-service-1
+    environment:
+      - SERVER_ID=academic-replica-1
+      - PORT=8083
+      - DB_CONN=postgres://uis_user:${DB_PASSWORD:?set in .env}@db:5432/uis_db?sslmode=disable
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      db:
+        condition: service_healthy
+
+  academic-service-2:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: academic-service
+    container_name: academic-service-2
+    environment:
+      - SERVER_ID=academic-replica-2
+      - PORT=8083
+      - DB_CONN=postgres://uis_user:${DB_PASSWORD:?set in .env}@db:5432/uis_db?sslmode=disable
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:15-alpine
+    container_name: uis-postgres-db
+    environment:
+      POSTGRES_USER: uis_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set in .env}
+      POSTGRES_DB: uis_db
+    volumes:
+      - ./config/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - uis_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U uis_user -d uis_db"]
+      interval: 3s
+      timeout: 3s
+      retries: 5
+    restart: always
+
+  prometheus:
+    image: prom/prometheus:v2.48.0
+    container_name: uis-prometheus
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./config/alerts.yml:/etc/prometheus/alerts.yml:ro
+    ports:
+      - "9090:9090"
+    restart: always
+
+  grafana:
+    image: grafana/grafana:10.4.2
+    container_name: uis-grafana
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+      - GF_SECURITY_ADMIN_PASSWORD=${DEMO_PASSWORD:?set in .env}
+    volumes:
+      - ./config/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./config/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    restart: always
+
+volumes:
+  uis_db_data:

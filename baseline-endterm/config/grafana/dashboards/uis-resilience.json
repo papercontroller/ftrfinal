@@ -1,0 +1,245 @@
+{
+ "uid": "uis-resilience",
+ "title": "University System Resilience",
+ "schemaVersion": 39,
+ "refresh": "5s",
+ "time": {
+  "from": "now-15m",
+  "to": "now"
+ },
+ "panels": [
+  {
+   "id": 1,
+   "title": "Request rate by service (req/s)",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 0,
+    "y": 0,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "reqps"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "sum by (service) (rate(http_requests_total[30s]))",
+     "legendFormat": "{{service}}"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Error rate by service (5xx %)",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 12,
+    "y": 0,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "percent"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "100 * sum by (service) (rate(http_requests_total{status=~\"5..\"}[30s])) / sum by (service) (rate(http_requests_total[30s]))",
+     "legendFormat": "{{service}}"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Latency p95 by service",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 0,
+    "y": 8,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "s"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "histogram_quantile(0.95, sum by (le, service) (rate(http_request_duration_seconds_bucket[30s])))",
+     "legendFormat": "{{service}}"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Replica health seen by gateway (1=up)",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 12,
+    "y": 8,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "short"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "upstream_replica_healthy",
+     "legendFormat": "{{replica}}"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Circuit breaker state (0=closed, 1=half-open, 2=open)",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 0,
+    "y": 16,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "short"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "circuit_breaker_state",
+     "legendFormat": "{{instance}}"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Degraded responses and rate-limit drops (req/s)",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 12,
+    "y": 16,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "reqps"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "sum(rate(degraded_responses_total[30s]))",
+     "legendFormat": "degraded"
+    },
+    {
+     "refId": "B",
+     "expr": "sum(rate(rate_limit_drops_total[30s]))",
+     "legendFormat": "rate limited"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Security audit events (per second)",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 0,
+    "y": 24,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "short"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "sum by (event_type) (rate(audit_security_events_total[1m]))",
+     "legendFormat": "{{event_type}}"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Alerts firing",
+   "type": "timeseries",
+   "datasource": {
+    "type": "prometheus",
+    "uid": "prometheus"
+   },
+   "gridPos": {
+    "x": 12,
+    "y": 24,
+    "w": 12,
+    "h": 8
+   },
+   "fieldConfig": {
+    "defaults": {
+     "unit": "short"
+    },
+    "overrides": []
+   },
+   "targets": [
+    {
+     "refId": "A",
+     "expr": "sum by (alertname) (ALERTS{alertstate=\"firing\"})",
+     "legendFormat": "{{alertname}}"
+    }
+   ]
+  }
+ ],
+ "tags": [
+  "uis"
+ ],
+ "timezone": "browser"
+}

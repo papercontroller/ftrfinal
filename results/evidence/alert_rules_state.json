@@ -1,0 +1,172 @@
+{
+ "status": "success",
+ "data": {
+  "groups": [
+   {
+    "name": "university_system_alerts",
+    "file": "/etc/prometheus/alerts.yml",
+    "rules": [
+     {
+      "state": "inactive",
+      "name": "ServiceInstanceDown",
+      "query": "up == 0",
+      "duration": 6,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "availability",
+       "severity": "critical"
+      },
+      "annotations": {
+       "description": "Prometheus cannot scrape {{ $labels.instance }} ({{ $labels.job }}). Docker restarts it; operator checks the logs if it stays down.",
+       "summary": "Instance down: {{ $labels.instance }}"
+      },
+      "alerts": [],
+      "health": "ok",
+      "evaluationTime": 0.001046123,
+      "lastEvaluation": "2026-11-09T09:17:27.212910301Z",
+      "type": "alerting"
+     },
+     {
+      "state": "inactive",
+      "name": "HighErrorRate",
+      "query": "(sum by (service) (rate(http_requests_total{status=~\"5..\"}[30s])) / sum by (service) (rate(http_requests_total[30s]))) * 100 > 5",
+      "duration": 10,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "dependability",
+       "severity": "critical"
+      },
+      "annotations": {
+       "description": "{{ $labels.service }} fails {{ $value }}% of requests. Operator follows a correlation ID from the gateway log to the failing service.",
+       "summary": "5xx rate above 5% on {{ $labels.service }}"
+      },
+      "alerts": [],
+      "health": "ok",
+      "evaluationTime": 0.001848117,
+      "lastEvaluation": "2026-11-09T09:17:27.213962524Z",
+      "type": "alerting"
+     },
+     {
+      "state": "inactive",
+      "name": "HighRequestLatencyP95",
+      "query": "histogram_quantile(0.95, sum by (le, service) (rate(http_request_duration_seconds_bucket[30s]))) > 0.3",
+      "duration": 15,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "performance",
+       "severity": "warning"
+      },
+      "annotations": {
+       "description": "p95 of {{ $labels.service }} is {{ $value }}s. Operator checks the database and the load level.",
+       "summary": "p95 latency above 300ms on {{ $labels.service }}"
+      },
+      "alerts": [],
+      "health": "ok",
+      "evaluationTime": 0.007629395,
+      "lastEvaluation": "2026-11-09T09:17:27.215816842Z",
+      "type": "alerting"
+     },
+     {
+      "state": "inactive",
+      "name": "CircuitBreakerOpen",
+      "query": "circuit_breaker_state == 2",
+      "duration": 2,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "dependability",
+       "severity": "critical"
+      },
+      "annotations": {
+       "description": "{{ $labels.breaker_name }} is open, so transcripts are served in degraded mode. Operator restores the database.",
+       "summary": "Circuit breaker open on {{ $labels.instance }}"
+      },
+      "alerts": [],
+      "health": "ok",
+      "evaluationTime": 0.000582168,
+      "lastEvaluation": "2026-11-09T09:17:27.223453838Z",
+      "type": "alerting"
+     },
+     {
+      "state": "inactive",
+      "name": "DatabaseUnreachable",
+      "query": "min(db_reachable) == 0",
+      "duration": 3,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "availability",
+       "severity": "critical"
+      },
+      "annotations": {
+       "description": "Writes are refused. The standby promotes itself after 5 failed checks; operator checks it did.",
+       "summary": "No writable database"
+      },
+      "alerts": [],
+      "health": "ok",
+      "evaluationTime": 0.001120831,
+      "lastEvaluation": "2026-11-09T09:17:27.224040807Z",
+      "type": "alerting"
+     },
+     {
+      "state": "inactive",
+      "name": "RegistrationStuck",
+      "query": "max(registrations_stuck) > 0",
+      "duration": 2,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "dependability",
+       "severity": "warning"
+      },
+      "annotations": {
+       "description": "A registration has not reached a final state. Operator checks the payment service and the student-service logs.",
+       "summary": "{{ $value }} registrations open for over 20 s"
+      },
+      "alerts": [],
+      "health": "ok",
+      "evaluationTime": 0.001470172,
+      "lastEvaluation": "2026-11-09T09:17:27.22517814Z",
+      "type": "alerting"
+     },
+     {
+      "state": "firing",
+      "name": "AbuseRateLimitTriggered",
+      "query": "sum(rate(rate_limit_drops_total[30s])) > 10",
+      "duration": 5,
+      "keepFiringFor": 0,
+      "labels": {
+       "category": "security",
+       "severity": "warning"
+      },
+      "annotations": {
+       "description": "{{ $value }} req/s are dropped at the gateway. Operator looks up the client IP in the WARN logs.",
+       "summary": "Requests blocked by the rate limiter"
+      },
+      "alerts": [
+       {
+        "labels": {
+         "alertname": "AbuseRateLimitTriggered",
+         "category": "security",
+         "severity": "warning"
+        },
+        "annotations": {
+         "description": "33.92650963835343 req/s are dropped at the gateway. Operator looks up the client IP in the WARN logs.",
+         "summary": "Requests blocked by the rate limiter"
+        },
+        "state": "firing",
+        "activeAt": "2026-11-09T09:17:11.230535443Z",
+        "value": "3.392650963835343e+01"
+       }
+      ],
+      "health": "ok",
+      "evaluationTime": 0.001688098,
+      "lastEvaluation": "2026-11-09T09:17:27.226659914Z",
+      "type": "alerting"
+     }
+    ],
+    "interval": 2,
+    "limit": 0,
+    "evaluationTime": 0.015484416,
+    "lastEvaluation": "2026-11-09T09:17:27.212875597Z"
+   }
+  ]
+ }
+}

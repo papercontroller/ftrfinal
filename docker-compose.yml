@@ -1,0 +1,234 @@
+# Final project deployment. Only the gateway, Prometheus and Grafana are published to
+# the host; backends and the database stay on the internal network, so the
+# identity headers set by the gateway cannot be forged from outside.
+# Secrets come from .env (see .env.example).
+
+x-go-service: &go-service
+  restart: always
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+  # Resource assumption of the report: one CPU and 256 MB per instance.
+  cpus: 1.0
+  mem_limit: 256m
+
+# The standby is listed first: while it is read-only the driver skips it, and after a
+# promotion it wins, so a returning old primary is never used again.
+x-db-conn: &db-conn "host=db-standby,db port=5432 user=uis_user password=${DB_PASSWORD:?set in .env} dbname=uis_db sslmode=disable target_session_attrs=read-write"
+
+x-db-ready: &db-ready
+  db:
+    condition: service_healthy
+  db-standby:
+    condition: service_healthy
+
+services:
+  api-gateway:
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: gateway
+    container_name: api-gateway
+    environment:
+      - SERVER_ID=api-gateway-node1
+      - PORT=8080
+      - STUDENT_SERVICE_URL=http://student-service-1:8081,http://student-service-2:8081
+      - PAYMENT_SERVICE_URL=http://payment-service-1:8082,http://payment-service-2:8082
+      - ACADEMIC_SERVICE_URLS=http://academic-service-1:8083,http://academic-service-2:8083
+      - JWT_SECRET=${JWT_SECRET:?set in .env}
+      - DEMO_PASSWORD=${DEMO_PASSWORD:?set in .env}
+      - RATE_LIMIT_RPS=${RATE_LIMIT_RPS:-20}
+      - RATE_LIMIT_BURST=${RATE_LIMIT_BURST:-50}
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on:
+      - student-service-1
+      - student-service-2
+      - payment-service-1
+      - payment-service-2
+      - academic-service-1
+      - academic-service-2
+
+  student-service-1: &student
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: student-service
+    container_name: student-service-1
+    environment: &student-env
+      SERVER_ID: student-replica-1
+      PORT: "8081"
+      DB_CONN: *db-conn
+      PAYMENT_SERVICE_URLS: http://payment-service-1:8082,http://payment-service-2:8082
+      SAGA_RECOVERY: ${SAGA_RECOVERY:-on}
+      FAULT_INJECTION: ${FAULT_INJECTION:-off}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on: *db-ready
+
+  student-service-2:
+    <<: *student
+    container_name: student-service-2
+    environment:
+      <<: *student-env
+      SERVER_ID: student-replica-2
+
+  payment-service-1: &payment
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: payment-service
+    container_name: payment-service-1
+    environment: &payment-env
+      SERVER_ID: payment-replica-1
+      PORT: "8082"
+      DB_CONN: *db-conn
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on: *db-ready
+
+  payment-service-2:
+    <<: *payment
+    container_name: payment-service-2
+    environment:
+      <<: *payment-env
+      SERVER_ID: payment-replica-2
+
+  academic-service-1: &academic
+    <<: *go-service
+    build:
+      context: .
+      args:
+        SERVICE_NAME: academic-service
+    container_name: academic-service-1
+    environment: &academic-env
+      SERVER_ID: academic-replica-1
+      PORT: "8083"
+      DB_CONN: *db-conn
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/healthz"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+    depends_on: *db-ready
+
+  academic-service-2:
+    <<: *academic
+    container_name: academic-service-2
+    environment:
+      <<: *academic-env
+      SERVER_ID: academic-replica-2
+
+  db:
+    image: postgres:15-alpine
+    container_name: uis-postgres-db
+    cpus: 2.0
+    mem_limit: 1g
+    environment:
+      POSTGRES_USER: uis_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set in .env}
+      POSTGRES_DB: uis_db
+    volumes:
+      - ./config/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./config/zz-replication.sh:/docker-entrypoint-initdb.d/zz-replication.sh:ro
+      - uis_db_data:/var/lib/postgresql/data
+      - uis_backups:/backups
+    healthcheck:
+      # TCP on purpose: the temporary server of the first start listens only on the socket.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U uis_user -d uis_db"]
+      interval: 3s
+      timeout: 3s
+      retries: 5
+      start_period: 60s
+    restart: always
+
+  db-standby:
+    image: postgres:15-alpine
+    container_name: uis-postgres-standby
+    user: postgres
+    entrypoint: ["sh", "/standby.sh"]
+    cpus: 2.0
+    mem_limit: 1g
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD:?set in .env}
+      PGUSER: uis_user
+      PGDATABASE: uis_db
+    volumes:
+      - ./config/standby.sh:/standby.sh:ro
+      - uis_db_standby_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: always
+
+  # Replication copies mistakes too, so it does not replace a backup. A dump every 5
+  # minutes, last 12 kept, on a volume separate from the data.
+  db-backup:
+    image: postgres:15-alpine
+    container_name: uis-db-backup
+    cpus: 0.5
+    mem_limit: 256m
+    environment:
+      DB_CONN: *db-conn
+    entrypoint:
+      - sh
+      - -c
+      - |
+        while :; do
+          sleep 300
+          pg_dump -Fc -f "/backups/uis-$$(date +%Y%m%dT%H%M%S).dump" "$$DB_CONN" && ls -t /backups/uis-*.dump | tail -n +13 | xargs -r rm --
+        done
+    volumes:
+      - uis_backups:/backups
+    depends_on: *db-ready
+    restart: always
+
+  prometheus:
+    image: prom/prometheus:v2.48.0
+    container_name: uis-prometheus
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./config/alerts.yml:/etc/prometheus/alerts.yml:ro
+    ports:
+      - "9090:9090"
+    restart: always
+
+  grafana:
+    image: grafana/grafana:10.4.2
+    container_name: uis-grafana
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+      - GF_SECURITY_ADMIN_PASSWORD=${DEMO_PASSWORD:?set in .env}
+    volumes:
+      - ./config/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./config/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    restart: always
+
+volumes:
+  uis_db_data:
+  uis_db_standby_data:
+  uis_backups:

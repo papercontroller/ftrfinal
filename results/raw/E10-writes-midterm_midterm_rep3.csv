@@ -1,0 +1,4194 @@
+t_sec,status,latency_ms,body_prefix
+0.001,200,36.8,"{""status"":""SUCCESS"",""amount"":1000.00,""student_id"":1}"
+0.018,200,19.2,"{""status"":""SUCCESS"",""amount"":1000.01,""student_id"":1}"
+0.048,200,6.0,"{""status"":""SUCCESS"",""amount"":1000.02,""student_id"":1}"
+0.064,200,7.0,"{""status"":""SUCCESS"",""amount"":1000.03,""student_id"":1}"
+0.08,200,7.1,"{""status"":""SUCCESS"",""amount"":1000.04,""student_id"":1}"
+0.095,200,7.4,"{""status"":""SUCCESS"",""amount"":1000.05,""student_id"":1}"
+0.111,200,6.6,"{""status"":""SUCCESS"",""amount"":1000.06,""student_id"":1}"
+0.125,200,6.7,"{""status"":""SUCCESS"",""amount"":1000.07,""student_id"":1}"
+0.141,200,22.7,"{""status"":""SUCCESS"",""amount"":1000.08,""student_id"":1}"
+0.157,200,22.7,"{""status"":""SUCCESS"",""amount"":1000.09,""student_id"":1}"
+0.173,200,7.9,"{""status"":""SUCCESS"",""amount"":1000.10,""student_id"":1}"
+0.189,200,22.1,"{""status"":""SUCCESS"",""amount"":1000.11,""student_id"":1}"
+0.205,200,7.4,"{""status"":""SUCCESS"",""amount"":1000.12,""student_id"":1}"
+0.22,200,6.6,"{""status"":""SUCCESS"",""amount"":1000.13,""student_id"":1}"
+0.236,200,7.1,"{""status"":""SUCCESS"",""amount"":1000.14,""student_id"":1}"
+0.251,200,22.1,"{""status"":""SUCCESS"",""amount"":1000.15,""student_id"":1}"
+0.282,200,10.9,"{""status"":""SUCCESS"",""amount"":1000.16,""student_id"":1}"
+0.297,200,8.9,"{""status"":""SUCCESS"",""amount"":1000.17,""student_id"":1}"
+0.312,200,7.7,"{""status"":""SUCCESS"",""amount"":1000.18,""student_id"":1}"
+0.327,200,8.2,"{""status"":""SUCCESS"",""amount"":1000.19,""student_id"":1}"
+0.342,200,6.7,"{""status"":""SUCCESS"",""amount"":1000.20,""student_id"":1}"
+0.357,200,22.8,"{""status"":""SUCCESS"",""amount"":1000.21,""student_id"":1}"
+0.373,200,7.9,"{""status"":""SUCCESS"",""amount"":1000.22,""student_id"":1}"
+0.388,200,6.7,"{""status"":""SUCCESS"",""amount"":1000.23,""student_id"":1}"
+0.404,200,6.8,"{""status"":""SUCCESS"",""amount"":1000.24,""student_id"":1}"
+0.419,200,7.8,"{""status"":""SUCCESS"",""amount"":1000.25,""student_id"":1}"
+0.434,200,7.7,"{""status"":""SUCCESS"",""amount"":1000.26,""student_id"":1}"
+0.466,200,8.4,"{""status"":""SUCCESS"",""amount"":1000.27,""student_id"":1}"
+0.482,200,7.9,"{""status"":""SUCCESS"",""amount"":1000.28,""student_id"":1}"
+0.497,200,26.5,"{""status"":""SUCCESS"",""amount"":1000.29,""student_id"":1}"
+0.513,200,12.0,"{""status"":""SUCCESS"",""amount"":1000.30,""student_id"":1}"
+0.528,200,9.6,"{""status"":""SUCCESS"",""amount"":1000.31,""student_id"":1}"
+0.544,200,8.2,"{""status"":""SUCCESS"",""amount"":1000.32,""student_id"":1}"
+0.559,200,8.5,"{""status"":""SUCCESS"",""amount"":1000.33,""student_id"":1}"
+0.575,200,7.6,"{""status"":""SUCCESS"",""amount"":1000.34,""student_id"":1}"
+0.59,200,10.5,"{""status"":""SUCCESS"",""amount"":1000.35,""student_id"":1}"
+0.605,200,7.9,"{""status"":""SUCCESS"",""amount"":1000.36,""student_id"":1}"
+0.622,200,6.9,"{""status"":""SUCCESS"",""amount"":1000.37,""student_id"":1}"
+0.636,200,22.4,"{""status"":""SUCCESS"",""amount"":1000.38,""student_id"":1}"
+0.651,200,7.6,"{""status"":""SUCCESS"",""amount"":1000.39,""student_id"":1}"
+0.682,200,8.6,"{""status"":""SUCCESS"",""amount"":1000.40,""student_id"":1}"
+0.697,200,8.6,"{""status"":""SUCCESS"",""amount"":1000.41,""student_id"":1}"
+0.713,200,9.4,"{""status"":""SUCCESS"",""amount"":1000.42,""student_id"":1}"
+0.728,200,8.8,"{""status"":""SUCCESS"",""amount"":1000.43,""student_id"":1}"
+0.744,200,52.1,"{""status"":""SUCCESS"",""amount"":1000.44,""student_id"":1}"
+0.759,200,45.2,"{""status"":""SUCCESS"",""amount"":1000.45,""student_id"":1}"
+0.794,200,11.7,"{""status"":""SUCCESS"",""amount"":1000.47,""student_id"":1}"
+0.794,200,13.6,"{""status"":""SUCCESS"",""amount"":1000.46,""student_id"":1}"
+0.805,200,21.9,"{""status"":""SUCCESS"",""amount"":1000.48,""student_id"":1}"
+0.821,200,7.8,"{""status"":""SUCCESS"",""amount"":1000.49,""student_id"":1}"
+0.836,200,23.3,"{""status"":""SUCCESS"",""amount"":1000.50,""student_id"":1}"
+0.852,200,8.7,"{""status"":""SUCCESS"",""amount"":1000.51,""student_id"":1}"
+0.867,200,8.3,"{""status"":""SUCCESS"",""amount"":1000.52,""student_id"":1}"
+0.919,200,34.1,"{""status"":""SUCCESS"",""amount"":1000.53,""student_id"":1}"
+0.92,200,32.1,"{""status"":""SUCCESS"",""amount"":1000.54,""student_id"":1}"
+0.942,200,34.6,"{""status"":""SUCCESS"",""amount"":1000.55,""student_id"":1}"
+0.945,200,10.1,"{""status"":""SUCCESS"",""amount"":1000.56,""student_id"":1}"
+0.974,200,8.9,"{""status"":""SUCCESS"",""amount"":1000.57,""student_id"":1}"
+0.975,200,9.4,"{""status"":""SUCCESS"",""amount"":1000.58,""student_id"":1}"
+0.989,200,7.1,"{""status"":""SUCCESS"",""amount"":1000.59,""student_id"":1}"
+1.004,200,6.2,"{""status"":""SUCCESS"",""amount"":1000.60,""student_id"":1}"
+1.02,200,6.7,"{""status"":""SUCCESS"",""amount"":1000.61,""student_id"":1}"
+1.035,200,6.1,"{""status"":""SUCCESS"",""amount"":1000.62,""student_id"":1}"
+1.051,200,8.4,"{""status"":""SUCCESS"",""amount"":1000.63,""student_id"":1}"
+1.082,200,27.6,"{""status"":""SUCCESS"",""amount"":1000.64,""student_id"":1}"
+1.098,200,21.3,"{""status"":""SUCCESS"",""amount"":1000.65,""student_id"":1}"
+1.112,200,14.1,"{""status"":""SUCCESS"",""amount"":1000.66,""student_id"":1}"
+1.127,200,10.8,"{""status"":""SUCCESS"",""amount"":1000.67,""student_id"":1}"
+1.143,200,9.0,"{""status"":""SUCCESS"",""amount"":1000.68,""student_id"":1}"
+1.158,200,8.1,"{""status"":""SUCCESS"",""amount"":1000.69,""student_id"":1}"
+1.174,200,8.0,"{""status"":""SUCCESS"",""amount"":1000.70,""student_id"":1}"
+1.189,200,8.7,"{""status"":""SUCCESS"",""amount"":1000.71,""student_id"":1}"
+1.205,200,8.7,"{""status"":""SUCCESS"",""amount"":1000.72,""student_id"":1}"
+1.22,200,23.6,"{""status"":""SUCCESS"",""amount"":1000.73,""student_id"":1}"
+1.236,200,9.3,"{""status"":""SUCCESS"",""amount"":1000.74,""student_id"":1}"
+1.252,200,11.3,"{""status"":""SUCCESS"",""amount"":1000.75,""student_id"":1}"
+1.267,200,8.5,"{""status"":""SUCCESS"",""amount"":1000.76,""student_id"":1}"
+1.298,200,8.7,"{""status"":""SUCCESS"",""amount"":1000.77,""student_id"":1}"
+1.313,200,9.2,"{""status"":""SUCCESS"",""amount"":1000.78,""student_id"":1}"
+1.329,200,8.3,"{""status"":""SUCCESS"",""amount"":1000.79,""student_id"":1}"
+1.345,200,8.5,"{""status"":""SUCCESS"",""amount"":1000.80,""student_id"":1}"
+1.36,200,7.1,"{""status"":""SUCCESS"",""amount"":1000.81,""student_id"":1}"
+1.375,200,6.8,"{""status"":""SUCCESS"",""amount"":1000.82,""student_id"":1}"
+1.391,200,7.1,"{""status"":""SUCCESS"",""amount"":1000.83,""student_id"":1}"
+1.408,200,7.6,"{""status"":""SUCCESS"",""amount"":1000.84,""student_id"":1}"
+1.422,200,45.6,"{""status"":""SUCCESS"",""amount"":1000.85,""student_id"":1}"
+1.437,200,31.7,"{""status"":""SUCCESS"",""amount"":1000.86,""student_id"":1}"
+1.457,200,14.1,"{""status"":""SUCCESS"",""amount"":1000.87,""student_id"":1}"
+1.467,200,7.8,"{""status"":""SUCCESS"",""amount"":1000.88,""student_id"":1}"
+1.498,200,7.4,"{""status"":""SUCCESS"",""amount"":1000.89,""student_id"":1}"
+1.514,200,7.0,"{""status"":""SUCCESS"",""amount"":1000.90,""student_id"":1}"
+1.529,200,6.3,"{""status"":""SUCCESS"",""amount"":1000.91,""student_id"":1}"
+1.544,200,6.5,"{""status"":""SUCCESS"",""amount"":1000.92,""student_id"":1}"
+1.559,200,6.4,"{""status"":""SUCCESS"",""amount"":1000.93,""student_id"":1}"
+1.575,200,50.9,"{""status"":""SUCCESS"",""amount"":1000.94,""student_id"":1}"
+1.61,200,14.0,"{""status"":""SUCCESS"",""amount"":1000.95,""student_id"":1}"
+1.611,200,15.3,"{""status"":""SUCCESS"",""amount"":1000.96,""student_id"":1}"
+1.621,200,7.8,"{""status"":""SUCCESS"",""amount"":1000.97,""student_id"":1}"
+1.638,200,9.2,"{""status"":""SUCCESS"",""amount"":1000.98,""student_id"":1}"
+1.652,200,21.5,"{""status"":""SUCCESS"",""amount"":1000.99,""student_id"":1}"
+1.668,200,7.3,"{""status"":""SUCCESS"",""amount"":1001.00,""student_id"":1}"
+1.698,200,41.1,"{""status"":""SUCCESS"",""amount"":1001.01,""student_id"":1}"
+1.715,200,25.1,"{""status"":""SUCCESS"",""amount"":1001.02,""student_id"":1}"
+1.73,200,24.9,"{""status"":""SUCCESS"",""amount"":1001.03,""student_id"":1}"
+1.746,200,16.1,"{""status"":""SUCCESS"",""amount"":1001.04,""student_id"":1}"
+1.761,200,10.5,"{""status"":""SUCCESS"",""amount"":1001.05,""student_id"":1}"
+1.777,200,9.0,"{""status"":""SUCCESS"",""amount"":1001.06,""student_id"":1}"
+1.792,200,22.2,"{""status"":""SUCCESS"",""amount"":1001.07,""student_id"":1}"
+1.809,200,7.0,"{""status"":""SUCCESS"",""amount"":1001.08,""student_id"":1}"
+1.824,200,6.6,"{""status"":""SUCCESS"",""amount"":1001.09,""student_id"":1}"
+1.84,200,6.8,"{""status"":""SUCCESS"",""amount"":1001.10,""student_id"":1}"
+1.855,200,6.8,"{""status"":""SUCCESS"",""amount"":1001.11,""student_id"":1}"
+1.87,200,6.6,"{""status"":""SUCCESS"",""amount"":1001.12,""student_id"":1}"
+1.885,200,6.7,"{""status"":""SUCCESS"",""amount"":1001.13,""student_id"":1}"
+1.902,200,20.5,"{""status"":""SUCCESS"",""amount"":1001.14,""student_id"":1}"
+1.932,200,6.5,"{""status"":""SUCCESS"",""amount"":1001.15,""student_id"":1}"
+1.947,200,7.3,"{""status"":""SUCCESS"",""amount"":1001.16,""student_id"":1}"
+1.962,200,23.3,"{""status"":""SUCCESS"",""amount"":1001.17,""student_id"":1}"
+1.978,200,9.0,"{""status"":""SUCCESS"",""amount"":1001.18,""student_id"":1}"
+1.994,200,6.4,"{""status"":""SUCCESS"",""amount"":1001.19,""student_id"":1}"
+2.009,200,22.5,"{""status"":""SUCCESS"",""amount"":1001.20,""student_id"":1}"
+2.024,200,8.2,"{""status"":""SUCCESS"",""amount"":1001.21,""student_id"":1}"
+2.039,200,8.1,"{""status"":""SUCCESS"",""amount"":1001.22,""student_id"":1}"
+2.055,200,22.6,"{""status"":""SUCCESS"",""amount"":1001.23,""student_id"":1}"
+2.07,200,8.3,"{""status"":""SUCCESS"",""amount"":1001.24,""student_id"":1}"
+2.085,200,6.7,"{""status"":""SUCCESS"",""amount"":1001.25,""student_id"":1}"
+2.101,200,7.2,"{""status"":""SUCCESS"",""amount"":1001.26,""student_id"":1}"
+2.132,200,7.2,"{""status"":""SUCCESS"",""amount"":1001.27,""student_id"":1}"
+2.147,200,5.8,"{""status"":""SUCCESS"",""amount"":1001.28,""student_id"":1}"
+2.163,200,5.7,"{""status"":""SUCCESS"",""amount"":1001.29,""student_id"":1}"
+2.178,200,6.6,"{""status"":""SUCCESS"",""amount"":1001.30,""student_id"":1}"
+2.193,200,5.2,"{""status"":""SUCCESS"",""amount"":1001.31,""student_id"":1}"
+2.209,200,5.2,"{""status"":""SUCCESS"",""amount"":1001.32,""student_id"":1}"
+2.224,200,6.1,"{""status"":""SUCCESS"",""amount"":1001.33,""student_id"":1}"
+2.239,200,5.4,"{""status"":""SUCCESS"",""amount"":1001.34,""student_id"":1}"
+2.255,200,5.6,"{""status"":""SUCCESS"",""amount"":1001.35,""student_id"":1}"
+2.27,200,5.9,"{""status"":""SUCCESS"",""amount"":1001.36,""student_id"":1}"
+2.285,200,5.4,"{""status"":""SUCCESS"",""amount"":1001.37,""student_id"":1}"
+2.316,200,7.1,"{""status"":""SUCCESS"",""amount"":1001.38,""student_id"":1}"
+2.332,200,7.2,"{""status"":""SUCCESS"",""amount"":1001.39,""student_id"":1}"
+2.347,200,7.5,"{""status"":""SUCCESS"",""amount"":1001.40,""student_id"":1}"
+2.363,200,8.6,"{""status"":""SUCCESS"",""amount"":1001.41,""student_id"":1}"
+2.379,200,8.7,"{""status"":""SUCCESS"",""amount"":1001.42,""student_id"":1}"
+2.393,200,9.7,"{""status"":""SUCCESS"",""amount"":1001.43,""student_id"":1}"
+2.409,200,9.3,"{""status"":""SUCCESS"",""amount"":1001.44,""student_id"":1}"
+2.424,200,6.5,"{""status"":""SUCCESS"",""amount"":1001.45,""student_id"":1}"
+2.44,200,6.3,"{""status"":""SUCCESS"",""amount"":1001.46,""student_id"":1}"
+2.456,200,6.6,"{""status"":""SUCCESS"",""amount"":1001.47,""student_id"":1}"
+2.472,200,8.1,"{""status"":""SUCCESS"",""amount"":1001.48,""student_id"":1}"
+2.487,200,6.2,"{""status"":""SUCCESS"",""amount"":1001.49,""student_id"":1}"
+2.503,200,6.5,"{""status"":""SUCCESS"",""amount"":1001.50,""student_id"":1}"
+2.518,200,6.0,"{""status"":""SUCCESS"",""amount"":1001.51,""student_id"":1}"
+2.534,200,6.6,"{""status"":""SUCCESS"",""amount"":1001.52,""student_id"":1}"
+2.564,200,8.0,"{""status"":""SUCCESS"",""amount"":1001.53,""student_id"":1}"
+2.579,200,7.9,"{""status"":""SUCCESS"",""amount"":1001.54,""student_id"":1}"
+2.594,200,14.0,"{""status"":""SUCCESS"",""amount"":1001.55,""student_id"":1}"
+2.61,200,10.3,"{""status"":""SUCCESS"",""amount"":1001.56,""student_id"":1}"
+2.625,200,6.1,"{""status"":""SUCCESS"",""amount"":1001.57,""student_id"":1}"
+2.64,200,5.7,"{""status"":""SUCCESS"",""amount"":1001.58,""student_id"":1}"
+2.655,200,6.1,"{""status"":""SUCCESS"",""amount"":1001.59,""student_id"":1}"
+2.67,200,6.4,"{""status"":""SUCCESS"",""amount"":1001.60,""student_id"":1}"
+2.685,200,9.7,"{""status"":""SUCCESS"",""amount"":1001.61,""student_id"":1}"
+2.701,200,5.2,"{""status"":""SUCCESS"",""amount"":1001.62,""student_id"":1}"
+2.732,200,22.6,"{""status"":""SUCCESS"",""amount"":1001.63,""student_id"":1}"
+2.748,200,15.8,"{""status"":""SUCCESS"",""amount"":1001.64,""student_id"":1}"
+2.763,200,10.3,"{""status"":""SUCCESS"",""amount"":1001.65,""student_id"":1}"
+2.778,200,10.0,"{""status"":""SUCCESS"",""amount"":1001.66,""student_id"":1}"
+2.794,200,9.7,"{""status"":""SUCCESS"",""amount"":1001.67,""student_id"":1}"
+2.809,200,10.7,"{""status"":""SUCCESS"",""amount"":1001.68,""student_id"":1}"
+2.824,200,10.4,"{""status"":""SUCCESS"",""amount"":1001.69,""student_id"":1}"
+2.839,200,8.8,"{""status"":""SUCCESS"",""amount"":1001.70,""student_id"":1}"
+2.855,200,11.6,"{""status"":""SUCCESS"",""amount"":1001.71,""student_id"":1}"
+2.871,200,12.1,"{""status"":""SUCCESS"",""amount"":1001.72,""student_id"":1}"
+2.886,200,10.5,"{""status"":""SUCCESS"",""amount"":1001.73,""student_id"":1}"
+2.901,200,10.7,"{""status"":""SUCCESS"",""amount"":1001.74,""student_id"":1}"
+2.932,200,11.2,"{""status"":""SUCCESS"",""amount"":1001.75,""student_id"":1}"
+2.947,200,10.5,"{""status"":""SUCCESS"",""amount"":1001.76,""student_id"":1}"
+2.963,200,13.0,"{""status"":""SUCCESS"",""amount"":1001.77,""student_id"":1}"
+2.979,200,14.4,"{""status"":""SUCCESS"",""amount"":1001.78,""student_id"":1}"
+2.994,200,9.8,"{""status"":""SUCCESS"",""amount"":1001.79,""student_id"":1}"
+3.009,200,8.2,"{""status"":""SUCCESS"",""amount"":1001.80,""student_id"":1}"
+3.024,200,8.4,"{""status"":""SUCCESS"",""amount"":1001.81,""student_id"":1}"
+3.04,200,10.6,"{""status"":""SUCCESS"",""amount"":1001.82,""student_id"":1}"
+3.056,200,10.9,"{""status"":""SUCCESS"",""amount"":1001.83,""student_id"":1}"
+3.071,200,10.9,"{""status"":""SUCCESS"",""amount"":1001.84,""student_id"":1}"
+3.087,200,11.4,"{""status"":""SUCCESS"",""amount"":1001.85,""student_id"":1}"
+3.102,200,11.7,"{""status"":""SUCCESS"",""amount"":1001.86,""student_id"":1}"
+3.118,200,10.9,"{""status"":""SUCCESS"",""amount"":1001.87,""student_id"":1}"
+3.148,200,12.3,"{""status"":""SUCCESS"",""amount"":1001.88,""student_id"":1}"
+3.164,200,10.0,"{""status"":""SUCCESS"",""amount"":1001.89,""student_id"":1}"
+3.179,200,10.2,"{""status"":""SUCCESS"",""amount"":1001.90,""student_id"":1}"
+3.195,200,10.9,"{""status"":""SUCCESS"",""amount"":1001.91,""student_id"":1}"
+3.21,200,10.5,"{""status"":""SUCCESS"",""amount"":1001.92,""student_id"":1}"
+3.226,200,10.3,"{""status"":""SUCCESS"",""amount"":1001.93,""student_id"":1}"
+3.242,200,11.6,"{""status"":""SUCCESS"",""amount"":1001.94,""student_id"":1}"
+3.257,200,11.0,"{""status"":""SUCCESS"",""amount"":1001.95,""student_id"":1}"
+3.273,200,10.9,"{""status"":""SUCCESS"",""amount"":1001.96,""student_id"":1}"
+3.288,200,10.3,"{""status"":""SUCCESS"",""amount"":1001.97,""student_id"":1}"
+3.303,200,10.5,"{""status"":""SUCCESS"",""amount"":1001.98,""student_id"":1}"
+3.319,200,10.4,"{""status"":""SUCCESS"",""amount"":1001.99,""student_id"":1}"
+3.334,200,12.0,"{""status"":""SUCCESS"",""amount"":1002.00,""student_id"":1}"
+3.365,200,10.4,"{""status"":""SUCCESS"",""amount"":1002.01,""student_id"":1}"
+3.381,200,11.8,"{""status"":""SUCCESS"",""amount"":1002.02,""student_id"":1}"
+3.396,200,11.6,"{""status"":""SUCCESS"",""amount"":1002.03,""student_id"":1}"
+3.411,200,9.6,"{""status"":""SUCCESS"",""amount"":1002.04,""student_id"":1}"
+3.426,200,7.4,"{""status"":""SUCCESS"",""amount"":1002.05,""student_id"":1}"
+3.442,200,6.4,"{""status"":""SUCCESS"",""amount"":1002.06,""student_id"":1}"
+3.458,200,6.4,"{""status"":""SUCCESS"",""amount"":1002.07,""student_id"":1}"
+3.474,200,5.6,"{""status"":""SUCCESS"",""amount"":1002.08,""student_id"":1}"
+3.489,200,5.7,"{""status"":""SUCCESS"",""amount"":1002.09,""student_id"":1}"
+3.504,200,5.4,"{""status"":""SUCCESS"",""amount"":1002.10,""student_id"":1}"
+3.519,200,5.9,"{""status"":""SUCCESS"",""amount"":1002.11,""student_id"":1}"
+3.535,200,6.8,"{""status"":""SUCCESS"",""amount"":1002.12,""student_id"":1}"
+3.55,200,5.9,"{""status"":""SUCCESS"",""amount"":1002.13,""student_id"":1}"
+3.582,200,8.7,"{""status"":""SUCCESS"",""amount"":1002.14,""student_id"":1}"
+3.597,200,8.1,"{""status"":""SUCCESS"",""amount"":1002.15,""student_id"":1}"
+3.613,200,8.0,"{""status"":""SUCCESS"",""amount"":1002.16,""student_id"":1}"
+3.628,200,9.7,"{""status"":""SUCCESS"",""amount"":1002.17,""student_id"":1}"
+3.643,200,10.7,"{""status"":""SUCCESS"",""amount"":1002.18,""student_id"":1}"
+3.659,200,11.3,"{""status"":""SUCCESS"",""amount"":1002.19,""student_id"":1}"
+3.675,200,13.9,"{""status"":""SUCCESS"",""amount"":1002.20,""student_id"":1}"
+3.69,200,12.4,"{""status"":""SUCCESS"",""amount"":1002.21,""student_id"":1}"
+3.706,200,13.3,"{""status"":""SUCCESS"",""amount"":1002.22,""student_id"":1}"
+3.721,200,13.1,"{""status"":""SUCCESS"",""amount"":1002.23,""student_id"":1}"
+3.737,200,12.8,"{""status"":""SUCCESS"",""amount"":1002.24,""student_id"":1}"
+3.752,200,12.2,"{""status"":""SUCCESS"",""amount"":1002.25,""student_id"":1}"
+3.768,200,12.7,"{""status"":""SUCCESS"",""amount"":1002.26,""student_id"":1}"
+3.798,200,11.8,"{""status"":""SUCCESS"",""amount"":1002.27,""student_id"":1}"
+3.814,200,10.7,"{""status"":""SUCCESS"",""amount"":1002.28,""student_id"":1}"
+3.829,200,7.9,"{""status"":""SUCCESS"",""amount"":1002.29,""student_id"":1}"
+3.845,200,5.6,"{""status"":""SUCCESS"",""amount"":1002.30,""student_id"":1}"
+3.86,200,7.1,"{""status"":""SUCCESS"",""amount"":1002.31,""student_id"":1}"
+3.876,200,6.0,"{""status"":""SUCCESS"",""amount"":1002.32,""student_id"":1}"
+3.891,200,6.0,"{""status"":""SUCCESS"",""amount"":1002.33,""student_id"":1}"
+3.906,200,6.0,"{""status"":""SUCCESS"",""amount"":1002.34,""student_id"":1}"
+3.922,200,6.5,"{""status"":""SUCCESS"",""amount"":1002.35,""student_id"":1}"
+3.937,200,5.8,"{""status"":""SUCCESS"",""amount"":1002.36,""student_id"":1}"
+3.952,200,5.6,"{""status"":""SUCCESS"",""amount"":1002.37,""student_id"":1}"
+3.968,200,5.8,"{""status"":""SUCCESS"",""amount"":1002.38,""student_id"":1}"
+3.999,200,6.7,"{""status"":""SUCCESS"",""amount"":1002.39,""student_id"":1}"
+4.014,200,6.2,"{""status"":""SUCCESS"",""amount"":1002.40,""student_id"":1}"
+4.03,200,6.3,"{""status"":""SUCCESS"",""amount"":1002.41,""student_id"":1}"
+4.045,200,6.6,"{""status"":""SUCCESS"",""amount"":1002.42,""student_id"":1}"
+4.061,200,6.0,"{""status"":""SUCCESS"",""amount"":1002.43,""student_id"":1}"
+4.076,200,6.8,"{""status"":""SUCCESS"",""amount"":1002.44,""student_id"":1}"
+4.091,200,5.3,"{""status"":""SUCCESS"",""amount"":1002.45,""student_id"":1}"
+4.107,200,5.9,"{""status"":""SUCCESS"",""amount"":1002.46,""student_id"":1}"
+4.122,200,6.6,"{""status"":""SUCCESS"",""amount"":1002.47,""student_id"":1}"
+4.137,200,6.2,"{""status"":""SUCCESS"",""amount"":1002.48,""student_id"":1}"
+4.153,200,6.2,"{""status"":""SUCCESS"",""amount"":1002.49,""student_id"":1}"
+4.168,200,6.4,"{""status"":""SUCCESS"",""amount"":1002.50,""student_id"":1}"
+4.198,200,6.9,"{""status"":""SUCCESS"",""amount"":1002.51,""student_id"":1}"
+4.213,200,8.4,"{""status"":""SUCCESS"",""amount"":1002.52,""student_id"":1}"
+4.229,200,12.7,"{""status"":""SUCCESS"",""amount"":1002.53,""student_id"":1}"
+4.244,200,6.2,"{""status"":""SUCCESS"",""amount"":1002.54,""student_id"":1}"
+4.259,200,7.6,"{""status"":""SUCCESS"",""amount"":1002.55,""student_id"":1}"
+4.275,200,6.8,"{""status"":""SUCCESS"",""amount"":1002.56,""student_id"":1}"
+4.29,200,9.0,"{""status"":""SUCCESS"",""amount"":1002.57,""student_id"":1}"
+4.305,200,7.5,"{""status"":""SUCCESS"",""amount"":1002.58,""student_id"":1}"
+4.321,200,6.5,"{""status"":""SUCCESS"",""amount"":1002.59,""student_id"":1}"
+4.336,200,7.3,"{""status"":""SUCCESS"",""amount"":1002.60,""student_id"":1}"
+4.351,200,7.7,"{""status"":""SUCCESS"",""amount"":1002.61,""student_id"":1}"
+4.382,200,7.2,"{""status"":""SUCCESS"",""amount"":1002.62,""student_id"":1}"
+4.397,200,5.9,"{""status"":""SUCCESS"",""amount"":1002.63,""student_id"":1}"
+4.413,200,5.6,"{""status"":""SUCCESS"",""amount"":1002.64,""student_id"":1}"
+4.428,200,14.5,"{""status"":""SUCCESS"",""amount"":1002.65,""student_id"":1}"
+4.444,200,7.7,"{""status"":""SUCCESS"",""amount"":1002.66,""student_id"":1}"
+4.459,200,6.9,"{""status"":""SUCCESS"",""amount"":1002.67,""student_id"":1}"
+4.474,200,7.3,"{""status"":""SUCCESS"",""amount"":1002.68,""student_id"":1}"
+4.49,200,8.0,"{""status"":""SUCCESS"",""amount"":1002.69,""student_id"":1}"
+4.505,200,9.5,"{""status"":""SUCCESS"",""amount"":1002.70,""student_id"":1}"
+4.521,200,12.9,"{""status"":""SUCCESS"",""amount"":1002.71,""student_id"":1}"
+4.536,200,11.9,"{""status"":""SUCCESS"",""amount"":1002.72,""student_id"":1}"
+4.551,200,15.1,"{""status"":""SUCCESS"",""amount"":1002.73,""student_id"":1}"
+4.567,200,14.8,"{""status"":""SUCCESS"",""amount"":1002.74,""student_id"":1}"
+4.583,200,16.0,"{""status"":""SUCCESS"",""amount"":1002.75,""student_id"":1}"
+4.614,200,11.4,"{""status"":""SUCCESS"",""amount"":1002.76,""student_id"":1}"
+4.63,200,9.8,"{""status"":""SUCCESS"",""amount"":1002.77,""student_id"":1}"
+4.646,200,7.7,"{""status"":""SUCCESS"",""amount"":1002.78,""student_id"":1}"
+4.661,200,8.6,"{""status"":""SUCCESS"",""amount"":1002.79,""student_id"":1}"
+4.676,200,8.8,"{""status"":""SUCCESS"",""amount"":1002.80,""student_id"":1}"
+4.693,200,13.6,"{""status"":""SUCCESS"",""amount"":1002.81,""student_id"":1}"
+4.708,200,8.7,"{""status"":""SUCCESS"",""amount"":1002.82,""student_id"":1}"
+4.724,200,6.6,"{""status"":""SUCCESS"",""amount"":1002.83,""student_id"":1}"
+4.739,200,5.4,"{""status"":""SUCCESS"",""amount"":1002.84,""student_id"":1}"
+4.754,200,5.9,"{""status"":""SUCCESS"",""amount"":1002.85,""student_id"":1}"
+4.77,200,7.0,"{""status"":""SUCCESS"",""amount"":1002.86,""student_id"":1}"
+4.786,200,5.4,"{""status"":""SUCCESS"",""amount"":1002.87,""student_id"":1}"
+4.801,200,5.5,"{""status"":""SUCCESS"",""amount"":1002.88,""student_id"":1}"
+4.832,200,6.2,"{""status"":""SUCCESS"",""amount"":1002.89,""student_id"":1}"
+4.847,200,5.5,"{""status"":""SUCCESS"",""amount"":1002.90,""student_id"":1}"
+4.862,200,6.2,"{""status"":""SUCCESS"",""amount"":1002.91,""student_id"":1}"
+4.878,200,6.1,"{""status"":""SUCCESS"",""amount"":1002.92,""student_id"":1}"
+4.894,200,5.7,"{""status"":""SUCCESS"",""amount"":1002.93,""student_id"":1}"
+4.909,200,6.8,"{""status"":""SUCCESS"",""amount"":1002.94,""student_id"":1}"
+4.926,200,6.3,"{""status"":""SUCCESS"",""amount"":1002.95,""student_id"":1}"
+4.941,200,6.0,"{""status"":""SUCCESS"",""amount"":1002.96,""student_id"":1}"
+4.956,200,5.7,"{""status"":""SUCCESS"",""amount"":1002.97,""student_id"":1}"
+4.972,200,6.6,"{""status"":""SUCCESS"",""amount"":1002.98,""student_id"":1}"
+4.987,200,5.6,"{""status"":""SUCCESS"",""amount"":1002.99,""student_id"":1}"
+5.003,200,6.0,"{""status"":""SUCCESS"",""amount"":1003.00,""student_id"":1}"
+5.018,200,7.7,"{""status"":""SUCCESS"",""amount"":1003.01,""student_id"":1}"
+5.034,200,6.7,"{""status"":""SUCCESS"",""amount"":1003.02,""student_id"":1}"
+5.065,200,8.8,"{""status"":""SUCCESS"",""amount"":1003.03,""student_id"":1}"
+5.081,200,9.4,"{""status"":""SUCCESS"",""amount"":1003.04,""student_id"":1}"
+5.096,200,9.0,"{""status"":""SUCCESS"",""amount"":1003.05,""student_id"":1}"
+5.112,200,9.8,"{""status"":""SUCCESS"",""amount"":1003.06,""student_id"":1}"
+5.127,200,9.1,"{""status"":""SUCCESS"",""amount"":1003.07,""student_id"":1}"
+5.143,200,10.7,"{""status"":""SUCCESS"",""amount"":1003.08,""student_id"":1}"
+5.159,200,13.6,"{""status"":""SUCCESS"",""amount"":1003.09,""student_id"":1}"
+5.174,200,12.8,"{""status"":""SUCCESS"",""amount"":1003.10,""student_id"":1}"
+5.19,200,12.2,"{""status"":""SUCCESS"",""amount"":1003.11,""student_id"":1}"
+5.205,200,12.4,"{""status"":""SUCCESS"",""amount"":1003.12,""student_id"":1}"
+5.221,200,17.6,"{""status"":""SUCCESS"",""amount"":1003.13,""student_id"":1}"
+5.236,200,13.2,"{""status"":""SUCCESS"",""amount"":1003.14,""student_id"":1}"
+5.251,200,12.9,"{""status"":""SUCCESS"",""amount"":1003.15,""student_id"":1}"
+5.267,200,12.2,"{""status"":""SUCCESS"",""amount"":1003.16,""student_id"":1}"
+5.298,200,8.3,"{""status"":""SUCCESS"",""amount"":1003.17,""student_id"":1}"
+5.313,200,9.4,"{""status"":""SUCCESS"",""amount"":1003.18,""student_id"":1}"
+5.329,200,11.3,"{""status"":""SUCCESS"",""amount"":1003.19,""student_id"":1}"
+5.345,200,12.7,"{""status"":""SUCCESS"",""amount"":1003.20,""student_id"":1}"
+5.362,200,11.8,"{""status"":""SUCCESS"",""amount"":1003.21,""student_id"":1}"
+5.377,200,12.0,"{""status"":""SUCCESS"",""amount"":1003.22,""student_id"":1}"
+5.393,200,11.0,"{""status"":""SUCCESS"",""amount"":1003.23,""student_id"":1}"
+5.408,200,11.4,"{""status"":""SUCCESS"",""amount"":1003.24,""student_id"":1}"
+5.424,200,13.7,"{""status"":""SUCCESS"",""amount"":1003.25,""student_id"":1}"
+5.439,200,13.6,"{""status"":""SUCCESS"",""amount"":1003.26,""student_id"":1}"
+5.454,200,7.9,"{""status"":""SUCCESS"",""amount"":1003.27,""student_id"":1}"
+5.47,200,6.8,"{""status"":""SUCCESS"",""amount"":1003.28,""student_id"":1}"
+5.485,200,6.2,"{""status"":""SUCCESS"",""amount"":1003.29,""student_id"":1}"
+5.515,200,8.2,"{""status"":""SUCCESS"",""amount"":1003.30,""student_id"":1}"
+5.53,200,8.5,"{""status"":""SUCCESS"",""amount"":1003.31,""student_id"":1}"
+5.546,200,8.0,"{""status"":""SUCCESS"",""amount"":1003.32,""student_id"":1}"
+5.561,200,9.1,"{""status"":""SUCCESS"",""amount"":1003.33,""student_id"":1}"
+5.577,200,8.1,"{""status"":""SUCCESS"",""amount"":1003.34,""student_id"":1}"
+5.592,200,8.3,"{""status"":""SUCCESS"",""amount"":1003.35,""student_id"":1}"
+5.608,200,8.0,"{""status"":""SUCCESS"",""amount"":1003.36,""student_id"":1}"
+5.624,200,9.6,"{""status"":""SUCCESS"",""amount"":1003.37,""student_id"":1}"
+5.639,200,8.9,"{""status"":""SUCCESS"",""amount"":1003.38,""student_id"":1}"
+5.654,200,10.0,"{""status"":""SUCCESS"",""amount"":1003.39,""student_id"":1}"
+5.67,200,10.9,"{""status"":""SUCCESS"",""amount"":1003.40,""student_id"":1}"
+5.685,200,10.1,"{""status"":""SUCCESS"",""amount"":1003.41,""student_id"":1}"
+5.715,200,12.4,"{""status"":""SUCCESS"",""amount"":1003.42,""student_id"":1}"
+5.731,200,13.4,"{""status"":""SUCCESS"",""amount"":1003.43,""student_id"":1}"
+5.746,200,13.2,"{""status"":""SUCCESS"",""amount"":1003.44,""student_id"":1}"
+5.762,200,12.4,"{""status"":""SUCCESS"",""amount"":1003.45,""student_id"":1}"
+5.778,200,13.1,"{""status"":""SUCCESS"",""amount"":1003.46,""student_id"":1}"
+5.793,200,12.6,"{""status"":""SUCCESS"",""amount"":1003.47,""student_id"":1}"
+5.809,200,13.1,"{""status"":""SUCCESS"",""amount"":1003.48,""student_id"":1}"
+5.824,200,12.8,"{""status"":""SUCCESS"",""amount"":1003.49,""student_id"":1}"
+5.839,200,8.8,"{""status"":""SUCCESS"",""amount"":1003.50,""student_id"":1}"
+5.854,200,6.7,"{""status"":""SUCCESS"",""amount"":1003.51,""student_id"":1}"
+5.87,200,7.1,"{""status"":""SUCCESS"",""amount"":1003.52,""student_id"":1}"
+5.885,200,8.5,"{""status"":""SUCCESS"",""amount"":1003.53,""student_id"":1}"
+5.915,200,5.3,"{""status"":""SUCCESS"",""amount"":1003.54,""student_id"":1}"
+5.931,200,20.1,"{""status"":""SUCCESS"",""amount"":1003.55,""student_id"":1}"
+5.946,200,13.0,"{""status"":""SUCCESS"",""amount"":1003.56,""student_id"":1}"
+5.961,200,9.6,"{""status"":""SUCCESS"",""amount"":1003.57,""student_id"":1}"
+5.976,200,9.5,"{""status"":""SUCCESS"",""amount"":1003.58,""student_id"":1}"
+5.992,200,22.1,"{""status"":""SUCCESS"",""amount"":1003.59,""student_id"":1}"
+6.007,200,14.4,"{""status"":""SUCCESS"",""amount"":1003.60,""student_id"":1}"
+6.023,200,10.4,"{""status"":""SUCCESS"",""amount"":1003.61,""student_id"":1}"
+6.038,200,7.0,"{""status"":""SUCCESS"",""amount"":1003.62,""student_id"":1}"
+6.054,200,5.6,"{""status"":""SUCCESS"",""amount"":1003.63,""student_id"":1}"
+6.069,200,5.3,"{""status"":""SUCCESS"",""amount"":1003.64,""student_id"":1}"
+6.099,200,7.4,"{""status"":""SUCCESS"",""amount"":1003.65,""student_id"":1}"
+6.114,200,7.8,"{""status"":""SUCCESS"",""amount"":1003.66,""student_id"":1}"
+6.13,200,11.6,"{""status"":""SUCCESS"",""amount"":1003.67,""student_id"":1}"
+6.145,200,6.3,"{""status"":""SUCCESS"",""amount"":1003.68,""student_id"":1}"
+6.162,200,5.4,"{""status"":""SUCCESS"",""amount"":1003.69,""student_id"":1}"
+6.177,200,10.2,"{""status"":""SUCCESS"",""amount"":1003.70,""student_id"":1}"
+6.193,200,5.9,"{""status"":""SUCCESS"",""amount"":1003.71,""student_id"":1}"
+6.208,200,5.6,"{""status"":""SUCCESS"",""amount"":1003.72,""student_id"":1}"
+6.224,200,7.3,"{""status"":""SUCCESS"",""amount"":1003.73,""student_id"":1}"
+6.24,200,9.4,"{""status"":""SUCCESS"",""amount"":1003.74,""student_id"":1}"
+6.255,200,31.6,"{""status"":""SUCCESS"",""amount"":1003.75,""student_id"":1}"
+6.271,200,21.1,"{""status"":""SUCCESS"",""amount"":1003.76,""student_id"":1}"
+6.288,200,14.4,"{""status"":""SUCCESS"",""amount"":1003.77,""student_id"":1}"
+6.302,200,6.9,"{""status"":""SUCCESS"",""amount"":1003.78,""student_id"":1}"
+6.317,200,13.9,"{""status"":""SUCCESS"",""amount"":1003.79,""student_id"":1}"
+6.348,200,10.3,"{""status"":""SUCCESS"",""amount"":1003.80,""student_id"":1}"
+6.363,200,10.3,"{""status"":""SUCCESS"",""amount"":1003.81,""student_id"":1}"
+6.379,200,22.4,"{""status"":""SUCCESS"",""amount"":1003.82,""student_id"":1}"
+6.394,200,15.9,"{""status"":""SUCCESS"",""amount"":1003.83,""student_id"":1}"
+6.409,200,9.1,"{""status"":""SUCCESS"",""amount"":1003.84,""student_id"":1}"
+6.424,200,8.8,"{""status"":""SUCCESS"",""amount"":1003.85,""student_id"":1}"
+6.44,200,22.5,"{""status"":""SUCCESS"",""amount"":1003.86,""student_id"":1}"
+6.455,200,17.1,"{""status"":""SUCCESS"",""amount"":1003.87,""student_id"":1}"
+6.471,200,10.5,"{""status"":""SUCCESS"",""amount"":1003.88,""student_id"":1}"
+6.485,200,7.6,"{""status"":""SUCCESS"",""amount"":1003.89,""student_id"":1}"
+6.501,200,5.0,"{""status"":""SUCCESS"",""amount"":1003.90,""student_id"":1}"
+6.533,200,5.9,"{""status"":""SUCCESS"",""amount"":1003.92,""student_id"":1}"
+6.533,200,6.7,"{""status"":""SUCCESS"",""amount"":1003.91,""student_id"":1}"
+6.563,200,26.6,"{""status"":""SUCCESS"",""amount"":1003.93,""student_id"":1}"
+6.579,200,15.1,"{""status"":""SUCCESS"",""amount"":1003.94,""student_id"":1}"
+6.594,200,7.8,"{""status"":""SUCCESS"",""amount"":1003.95,""student_id"":1}"
+6.61,200,5.7,"{""status"":""SUCCESS"",""amount"":1003.96,""student_id"":1}"
+6.625,200,9.6,"{""status"":""SUCCESS"",""amount"":1003.97,""student_id"":1}"
+6.641,200,9.8,"{""status"":""SUCCESS"",""amount"":1003.98,""student_id"":1}"
+6.656,200,9.9,"{""status"":""SUCCESS"",""amount"":1003.99,""student_id"":1}"
+6.672,200,11.6,"{""status"":""SUCCESS"",""amount"":1004.00,""student_id"":1}"
+6.686,200,10.9,"{""status"":""SUCCESS"",""amount"":1004.01,""student_id"":1}"
+6.702,200,6.1,"{""status"":""SUCCESS"",""amount"":1004.02,""student_id"":1}"
+6.732,200,7.1,"{""status"":""SUCCESS"",""amount"":1004.03,""student_id"":1}"
+6.748,200,8.1,"{""status"":""SUCCESS"",""amount"":1004.04,""student_id"":1}"
+6.763,200,13.0,"{""status"":""SUCCESS"",""amount"":1004.05,""student_id"":1}"
+6.778,200,7.5,"{""status"":""SUCCESS"",""amount"":1004.06,""student_id"":1}"
+6.793,200,6.8,"{""status"":""SUCCESS"",""amount"":1004.07,""student_id"":1}"
+6.81,200,19.0,"{""status"":""SUCCESS"",""amount"":1004.08,""student_id"":1}"
+6.824,200,10.8,"{""status"":""SUCCESS"",""amount"":1004.09,""student_id"":1}"
+6.838,200,7.5,"{""status"":""SUCCESS"",""amount"":1004.10,""student_id"":1}"
+6.854,200,8.3,"{""status"":""SUCCESS"",""amount"":1004.11,""student_id"":1}"
+6.869,200,10.4,"{""status"":""SUCCESS"",""amount"":1004.12,""student_id"":1}"
+6.884,200,6.2,"{""status"":""SUCCESS"",""amount"":1004.13,""student_id"":1}"
+6.901,200,15.1,"{""status"":""SUCCESS"",""amount"":1004.14,""student_id"":1}"
+6.933,200,21.7,"{""status"":""SUCCESS"",""amount"":1004.15,""student_id"":1}"
+6.948,200,13.9,"{""status"":""SUCCESS"",""amount"":1004.16,""student_id"":1}"
+6.963,200,8.5,"{""status"":""SUCCESS"",""amount"":1004.17,""student_id"":1}"
+6.979,200,7.4,"{""status"":""SUCCESS"",""amount"":1004.18,""student_id"":1}"
+6.994,200,21.9,"{""status"":""SUCCESS"",""amount"":1004.19,""student_id"":1}"
+7.01,200,16.3,"{""status"":""SUCCESS"",""amount"":1004.20,""student_id"":1}"
+7.025,200,10.5,"{""status"":""SUCCESS"",""amount"":1004.21,""student_id"":1}"
+7.041,200,8.3,"{""status"":""SUCCESS"",""amount"":1004.22,""student_id"":1}"
+7.056,200,7.6,"{""status"":""SUCCESS"",""amount"":1004.23,""student_id"":1}"
+7.072,200,5.6,"{""status"":""SUCCESS"",""amount"":1004.24,""student_id"":1}"
+7.087,200,5.6,"{""status"":""SUCCESS"",""amount"":1004.25,""student_id"":1}"
+7.102,200,5.8,"{""status"":""SUCCESS"",""amount"":1004.26,""student_id"":1}"
+7.132,200,5.3,"{""status"":""SUCCESS"",""amount"":1004.27,""student_id"":1}"
+7.147,200,22.3,"{""status"":""SUCCESS"",""amount"":1004.28,""student_id"":1}"
+7.163,200,24.0,"{""status"":""SUCCESS"",""amount"":1004.29,""student_id"":1}"
+7.178,200,18.4,"{""status"":""SUCCESS"",""amount"":1004.30,""student_id"":1}"
+7.194,200,10.1,"{""status"":""SUCCESS"",""amount"":1004.31,""student_id"":1}"
+7.209,200,8.6,"{""status"":""SUCCESS"",""amount"":1004.32,""student_id"":1}"
+7.225,200,8.8,"{""status"":""SUCCESS"",""amount"":1004.33,""student_id"":1}"
+7.239,200,11.5,"{""status"":""SUCCESS"",""amount"":1004.34,""student_id"":1}"
+7.255,200,10.8,"{""status"":""SUCCESS"",""amount"":1004.35,""student_id"":1}"
+7.27,200,10.0,"{""status"":""SUCCESS"",""amount"":1004.36,""student_id"":1}"
+7.286,200,10.8,"{""status"":""SUCCESS"",""amount"":1004.37,""student_id"":1}"
+7.316,200,10.5,"{""status"":""SUCCESS"",""amount"":1004.38,""student_id"":1}"
+7.332,200,10.9,"{""status"":""SUCCESS"",""amount"":1004.39,""student_id"":1}"
+7.346,200,10.3,"{""status"":""SUCCESS"",""amount"":1004.40,""student_id"":1}"
+7.362,200,10.8,"{""status"":""SUCCESS"",""amount"":1004.41,""student_id"":1}"
+7.378,200,10.8,"{""status"":""SUCCESS"",""amount"":1004.42,""student_id"":1}"
+7.393,200,12.8,"{""status"":""SUCCESS"",""amount"":1004.43,""student_id"":1}"
+7.409,200,12.7,"{""status"":""SUCCESS"",""amount"":1004.44,""student_id"":1}"
+7.424,200,12.5,"{""status"":""SUCCESS"",""amount"":1004.45,""student_id"":1}"
+7.44,200,13.5,"{""status"":""SUCCESS"",""amount"":1004.46,""student_id"":1}"
+7.455,200,12.3,"{""status"":""SUCCESS"",""amount"":1004.47,""student_id"":1}"
+7.471,200,13.6,"{""status"":""SUCCESS"",""amount"":1004.48,""student_id"":1}"
+7.486,200,12.5,"{""status"":""SUCCESS"",""amount"":1004.49,""student_id"":1}"
+7.502,200,12.8,"{""status"":""SUCCESS"",""amount"":1004.50,""student_id"":1}"
+7.518,200,12.6,"{""status"":""SUCCESS"",""amount"":1004.51,""student_id"":1}"
+7.549,200,16.1,"{""status"":""SUCCESS"",""amount"":1004.52,""student_id"":1}"
+7.565,200,16.4,"{""status"":""SUCCESS"",""amount"":1004.53,""student_id"":1}"
+7.581,200,9.7,"{""status"":""SUCCESS"",""amount"":1004.54,""student_id"":1}"
+7.596,200,7.5,"{""status"":""SUCCESS"",""amount"":1004.55,""student_id"":1}"
+7.612,200,6.4,"{""status"":""SUCCESS"",""amount"":1004.56,""student_id"":1}"
+7.627,200,7.3,"{""status"":""SUCCESS"",""amount"":1004.57,""student_id"":1}"
+7.642,200,8.8,"{""status"":""SUCCESS"",""amount"":1004.58,""student_id"":1}"
+7.658,200,8.1,"{""status"":""SUCCESS"",""amount"":1004.59,""student_id"":1}"
+7.673,200,7.7,"{""status"":""SUCCESS"",""amount"":1004.60,""student_id"":1}"
+7.689,200,7.5,"{""status"":""SUCCESS"",""amount"":1004.61,""student_id"":1}"
+7.704,200,8.8,"{""status"":""SUCCESS"",""amount"":1004.62,""student_id"":1}"
+7.719,200,7.8,"{""status"":""SUCCESS"",""amount"":1004.63,""student_id"":1}"
+7.734,200,7.5,"{""status"":""SUCCESS"",""amount"":1004.64,""student_id"":1}"
+7.765,200,9.0,"{""status"":""SUCCESS"",""amount"":1004.65,""student_id"":1}"
+7.781,200,8.1,"{""status"":""SUCCESS"",""amount"":1004.66,""student_id"":1}"
+7.796,200,8.2,"{""status"":""SUCCESS"",""amount"":1004.67,""student_id"":1}"
+7.811,200,9.1,"{""status"":""SUCCESS"",""amount"":1004.68,""student_id"":1}"
+7.827,200,9.4,"{""status"":""SUCCESS"",""amount"":1004.69,""student_id"":1}"
+7.842,200,10.4,"{""status"":""SUCCESS"",""amount"":1004.70,""student_id"":1}"
+7.858,200,9.4,"{""status"":""SUCCESS"",""amount"":1004.71,""student_id"":1}"
+7.873,200,9.7,"{""status"":""SUCCESS"",""amount"":1004.72,""student_id"":1}"
+7.888,200,9.8,"{""status"":""SUCCESS"",""amount"":1004.73,""student_id"":1}"
+7.903,200,10.3,"{""status"":""SUCCESS"",""amount"":1004.74,""student_id"":1}"
+7.918,200,9.6,"{""status"":""SUCCESS"",""amount"":1004.75,""student_id"":1}"
+7.949,200,11.2,"{""status"":""SUCCESS"",""amount"":1004.76,""student_id"":1}"
+7.965,200,11.3,"{""status"":""SUCCESS"",""amount"":1004.77,""student_id"":1}"
+7.981,200,14.1,"{""status"":""SUCCESS"",""amount"":1004.78,""student_id"":1}"
+7.996,200,15.1,"{""status"":""SUCCESS"",""amount"":1004.79,""student_id"":1}"
+8.011,200,13.7,"{""status"":""SUCCESS"",""amount"":1004.80,""student_id"":1}"
+8.027,200,13.9,"{""status"":""SUCCESS"",""amount"":1004.81,""student_id"":1}"
+8.042,200,13.3,"{""status"":""SUCCESS"",""amount"":1004.82,""student_id"":1}"
+8.058,200,13.6,"{""status"":""SUCCESS"",""amount"":1004.83,""student_id"":1}"
+8.074,200,13.1,"{""status"":""SUCCESS"",""amount"":1004.84,""student_id"":1}"
+8.089,200,12.8,"{""status"":""SUCCESS"",""amount"":1004.85,""student_id"":1}"
+8.105,200,10.8,"{""status"":""SUCCESS"",""amount"":1004.86,""student_id"":1}"
+8.121,200,8.6,"{""status"":""SUCCESS"",""amount"":1004.87,""student_id"":1}"
+8.135,200,7.7,"{""status"":""SUCCESS"",""amount"":1004.88,""student_id"":1}"
+8.15,200,5.7,"{""status"":""SUCCESS"",""amount"":1004.89,""student_id"":1}"
+8.181,200,7.6,"{""status"":""SUCCESS"",""amount"":1004.90,""student_id"":1}"
+8.196,200,6.5,"{""status"":""SUCCESS"",""amount"":1004.91,""student_id"":1}"
+8.212,200,6.4,"{""status"":""SUCCESS"",""amount"":1004.92,""student_id"":1}"
+8.227,200,7.6,"{""status"":""SUCCESS"",""amount"":1004.93,""student_id"":1}"
+8.243,200,6.1,"{""status"":""SUCCESS"",""amount"":1004.94,""student_id"":1}"
+8.257,200,7.5,"{""status"":""SUCCESS"",""amount"":1004.95,""student_id"":1}"
+8.273,200,4.9,"{""status"":""SUCCESS"",""amount"":1004.96,""student_id"":1}"
+8.288,200,5.6,"{""status"":""SUCCESS"",""amount"":1004.97,""student_id"":1}"
+8.304,200,21.6,"{""status"":""SUCCESS"",""amount"":1004.98,""student_id"":1}"
+8.32,200,13.3,"{""status"":""SUCCESS"",""amount"":1004.99,""student_id"":1}"
+8.335,200,8.4,"{""status"":""SUCCESS"",""amount"":1005.00,""student_id"":1}"
+8.366,200,24.5,"{""status"":""SUCCESS"",""amount"":1005.01,""student_id"":1}"
+8.382,200,14.8,"{""status"":""SUCCESS"",""amount"":1005.02,""student_id"":1}"
+8.397,200,8.9,"{""status"":""SUCCESS"",""amount"":1005.03,""student_id"":1}"
+8.413,200,6.1,"{""status"":""SUCCESS"",""amount"":1005.04,""student_id"":1}"
+8.427,200,6.3,"{""status"":""SUCCESS"",""amount"":1005.05,""student_id"":1}"
+8.443,200,22.4,"{""status"":""SUCCESS"",""amount"":1005.06,""student_id"":1}"
+8.458,200,14.7,"{""status"":""SUCCESS"",""amount"":1005.07,""student_id"":1}"
+8.473,200,9.1,"{""status"":""SUCCESS"",""amount"":1005.08,""student_id"":1}"
+8.488,200,7.9,"{""status"":""SUCCESS"",""amount"":1005.09,""student_id"":1}"
+8.504,200,6.6,"{""status"":""SUCCESS"",""amount"":1005.10,""student_id"":1}"
+8.519,200,6.7,"{""status"":""SUCCESS"",""amount"":1005.11,""student_id"":1}"
+8.549,200,6.4,"{""status"":""SUCCESS"",""amount"":1005.12,""student_id"":1}"
+8.565,200,6.3,"{""status"":""SUCCESS"",""amount"":1005.13,""student_id"":1}"
+8.58,200,6.2,"{""status"":""SUCCESS"",""amount"":1005.14,""student_id"":1}"
+8.595,200,6.7,"{""status"":""SUCCESS"",""amount"":1005.15,""student_id"":1}"
+8.61,200,6.3,"{""status"":""SUCCESS"",""amount"":1005.16,""student_id"":1}"
+8.626,200,6.5,"{""status"":""SUCCESS"",""amount"":1005.17,""student_id"":1}"
+8.641,200,6.8,"{""status"":""SUCCESS"",""amount"":1005.18,""student_id"":1}"
+8.656,200,5.5,"{""status"":""SUCCESS"",""amount"":1005.19,""student_id"":1}"
+8.672,200,6.4,"{""status"":""SUCCESS"",""amount"":1005.20,""student_id"":1}"
+8.687,200,7.2,"{""status"":""SUCCESS"",""amount"":1005.21,""student_id"":1}"
+8.702,200,6.3,"{""status"":""SUCCESS"",""amount"":1005.22,""student_id"":1}"
+8.718,200,7.1,"{""status"":""SUCCESS"",""amount"":1005.23,""student_id"":1}"
+8.734,200,6.8,"{""status"":""SUCCESS"",""amount"":1005.24,""student_id"":1}"
+8.764,200,8.1,"{""status"":""SUCCESS"",""amount"":1005.25,""student_id"":1}"
+8.78,200,8.6,"{""status"":""SUCCESS"",""amount"":1005.26,""student_id"":1}"
+8.795,200,7.8,"{""status"":""SUCCESS"",""amount"":1005.27,""student_id"":1}"
+8.81,200,8.6,"{""status"":""SUCCESS"",""amount"":1005.28,""student_id"":1}"
+8.826,200,8.2,"{""status"":""SUCCESS"",""amount"":1005.29,""student_id"":1}"
+8.84,200,8.4,"{""status"":""SUCCESS"",""amount"":1005.30,""student_id"":1}"
+8.856,200,7.6,"{""status"":""SUCCESS"",""amount"":1005.31,""student_id"":1}"
+8.872,200,13.1,"{""status"":""SUCCESS"",""amount"":1005.32,""student_id"":1}"
+8.886,200,10.3,"{""status"":""SUCCESS"",""amount"":1005.33,""student_id"":1}"
+8.901,200,9.0,"{""status"":""SUCCESS"",""amount"":1005.34,""student_id"":1}"
+8.932,200,6.5,"{""status"":""SUCCESS"",""amount"":1005.35,""student_id"":1}"
+8.947,200,8.4,"{""status"":""SUCCESS"",""amount"":1005.36,""student_id"":1}"
+8.963,200,5.8,"{""status"":""SUCCESS"",""amount"":1005.37,""student_id"":1}"
+8.978,200,5.4,"{""status"":""SUCCESS"",""amount"":1005.38,""student_id"":1}"
+8.993,200,4.9,"{""status"":""SUCCESS"",""amount"":1005.39,""student_id"":1}"
+9.009,200,5.2,"{""status"":""SUCCESS"",""amount"":1005.40,""student_id"":1}"
+9.024,200,5.4,"{""status"":""SUCCESS"",""amount"":1005.41,""student_id"":1}"
+9.039,200,6.0,"{""status"":""SUCCESS"",""amount"":1005.42,""student_id"":1}"
+9.054,200,6.0,"{""status"":""SUCCESS"",""amount"":1005.43,""student_id"":1}"
+9.07,200,6.2,"{""status"":""SUCCESS"",""amount"":1005.44,""student_id"":1}"
+9.084,200,5.6,"{""status"":""SUCCESS"",""amount"":1005.45,""student_id"":1}"
+9.115,200,6.8,"{""status"":""SUCCESS"",""amount"":1005.46,""student_id"":1}"
+9.131,200,8.6,"{""status"":""SUCCESS"",""amount"":1005.47,""student_id"":1}"
+9.146,200,8.4,"{""status"":""SUCCESS"",""amount"":1005.48,""student_id"":1}"
+9.162,200,8.8,"{""status"":""SUCCESS"",""amount"":1005.49,""student_id"":1}"
+9.177,200,8.0,"{""status"":""SUCCESS"",""amount"":1005.50,""student_id"":1}"
+9.192,200,7.0,"{""status"":""SUCCESS"",""amount"":1005.51,""student_id"":1}"
+9.208,200,7.0,"{""status"":""SUCCESS"",""amount"":1005.52,""student_id"":1}"
+9.223,200,7.5,"{""status"":""SUCCESS"",""amount"":1005.53,""student_id"":1}"
+9.239,200,6.6,"{""status"":""SUCCESS"",""amount"":1005.54,""student_id"":1}"
+9.254,200,7.0,"{""status"":""SUCCESS"",""amount"":1005.55,""student_id"":1}"
+9.269,200,7.6,"{""status"":""SUCCESS"",""amount"":1005.56,""student_id"":1}"
+9.285,200,8.8,"{""status"":""SUCCESS"",""amount"":1005.57,""student_id"":1}"
+9.3,200,7.1,"{""status"":""SUCCESS"",""amount"":1005.58,""student_id"":1}"
+9.331,200,6.4,"{""status"":""SUCCESS"",""amount"":1005.59,""student_id"":1}"
+9.346,200,14.6,"{""status"":""SUCCESS"",""amount"":1005.60,""student_id"":1}"
+9.361,200,9.5,"{""status"":""SUCCESS"",""amount"":1005.61,""student_id"":1}"
+9.377,200,7.8,"{""status"":""SUCCESS"",""amount"":1005.62,""student_id"":1}"
+9.392,200,6.8,"{""status"":""SUCCESS"",""amount"":1005.63,""student_id"":1}"
+9.407,200,6.4,"{""status"":""SUCCESS"",""amount"":1005.64,""student_id"":1}"
+9.422,200,7.0,"{""status"":""SUCCESS"",""amount"":1005.65,""student_id"":1}"
+9.438,200,7.3,"{""status"":""SUCCESS"",""amount"":1005.66,""student_id"":1}"
+9.453,200,7.2,"{""status"":""SUCCESS"",""amount"":1005.67,""student_id"":1}"
+9.468,200,8.3,"{""status"":""SUCCESS"",""amount"":1005.68,""student_id"":1}"
+9.499,200,6.8,"{""status"":""SUCCESS"",""amount"":1005.69,""student_id"":1}"
+9.514,200,6.9,"{""status"":""SUCCESS"",""amount"":1005.70,""student_id"":1}"
+9.53,200,7.4,"{""status"":""SUCCESS"",""amount"":1005.71,""student_id"":1}"
+9.545,200,5.3,"{""status"":""SUCCESS"",""amount"":1005.72,""student_id"":1}"
+9.56,200,6.2,"{""status"":""SUCCESS"",""amount"":1005.73,""student_id"":1}"
+9.576,200,5.5,"{""status"":""SUCCESS"",""amount"":1005.74,""student_id"":1}"
+9.591,200,5.8,"{""status"":""SUCCESS"",""amount"":1005.75,""student_id"":1}"
+9.606,200,6.1,"{""status"":""SUCCESS"",""amount"":1005.76,""student_id"":1}"
+9.622,200,6.4,"{""status"":""SUCCESS"",""amount"":1005.77,""student_id"":1}"
+9.637,200,5.6,"{""status"":""SUCCESS"",""amount"":1005.78,""student_id"":1}"
+9.653,200,6.3,"{""status"":""SUCCESS"",""amount"":1005.79,""student_id"":1}"
+9.668,200,6.0,"{""status"":""SUCCESS"",""amount"":1005.80,""student_id"":1}"
+9.684,200,6.4,"{""status"":""SUCCESS"",""amount"":1005.81,""student_id"":1}"
+9.714,200,6.7,"{""status"":""SUCCESS"",""amount"":1005.82,""student_id"":1}"
+9.73,200,7.4,"{""status"":""SUCCESS"",""amount"":1005.83,""student_id"":1}"
+9.746,200,6.9,"{""status"":""SUCCESS"",""amount"":1005.84,""student_id"":1}"
+9.761,200,7.5,"{""status"":""SUCCESS"",""amount"":1005.85,""student_id"":1}"
+9.777,200,7.0,"{""status"":""SUCCESS"",""amount"":1005.86,""student_id"":1}"
+9.792,200,7.1,"{""status"":""SUCCESS"",""amount"":1005.87,""student_id"":1}"
+9.808,200,7.7,"{""status"":""SUCCESS"",""amount"":1005.88,""student_id"":1}"
+9.823,200,6.7,"{""status"":""SUCCESS"",""amount"":1005.89,""student_id"":1}"
+9.839,200,5.3,"{""status"":""SUCCESS"",""amount"":1005.90,""student_id"":1}"
+9.854,200,5.6,"{""status"":""SUCCESS"",""amount"":1005.91,""student_id"":1}"
+9.869,200,7.2,"{""status"":""SUCCESS"",""amount"":1005.92,""student_id"":1}"
+9.884,200,6.0,"{""status"":""SUCCESS"",""amount"":1005.93,""student_id"":1}"
+9.901,200,6.5,"{""status"":""SUCCESS"",""amount"":1005.94,""student_id"":1}"
+9.932,200,7.4,"{""status"":""SUCCESS"",""amount"":1005.95,""student_id"":1}"
+9.947,200,7.8,"{""status"":""SUCCESS"",""amount"":1005.96,""student_id"":1}"
+9.962,200,8.4,"{""status"":""SUCCESS"",""amount"":1005.97,""student_id"":1}"
+9.978,200,8.3,"{""status"":""SUCCESS"",""amount"":1005.98,""student_id"":1}"
+9.993,200,7.5,"{""status"":""SUCCESS"",""amount"":1005.99,""student_id"":1}"
+10.009,200,7.4,"{""status"":""SUCCESS"",""amount"":1006.00,""student_id"":1}"
+10.024,200,8.1,"{""status"":""SUCCESS"",""amount"":1006.01,""student_id"":1}"
+10.039,200,8.2,"{""status"":""SUCCESS"",""amount"":1006.02,""student_id"":1}"
+10.054,200,7.7,"{""status"":""SUCCESS"",""amount"":1006.03,""student_id"":1}"
+10.071,200,6.6,"{""status"":""SUCCESS"",""amount"":1006.04,""student_id"":1}"
+10.086,200,5.9,"{""status"":""SUCCESS"",""amount"":1006.05,""student_id"":1}"
+10.101,200,6.2,"{""status"":""SUCCESS"",""amount"":1006.06,""student_id"":1}"
+10.132,503,3.3,"database unavailable
+"
+10.147,503,2.8,"database unavailable
+"
+10.163,503,3.4,"database unavailable
+"
+10.178,503,4.9,"database unavailable
+"
+10.193,503,3.9,"database unavailable
+"
+10.21,503,11.9,"database unavailable
+"
+10.225,503,3.9,"database unavailable
+"
+10.24,503,3.7,"database unavailable
+"
+10.255,503,4.1,"database unavailable
+"
+10.27,503,4.7,"database unavailable
+"
+10.286,503,4.2,"database unavailable
+"
+10.301,503,4.0,"database unavailable
+"
+10.332,503,3.6,"database unavailable
+"
+10.347,503,2003.5,"database unavailable
+"
+10.362,503,2002.3,"database unavailable
+"
+10.378,503,2002.4,"database unavailable
+"
+10.393,503,2002.0,"database unavailable
+"
+10.408,503,2002.0,"database unavailable
+"
+10.424,503,2002.2,"database unavailable
+"
+10.439,503,2002.6,"database unavailable
+"
+10.455,503,2001.6,"database unavailable
+"
+10.471,503,2002.7,"database unavailable
+"
+10.486,503,2003.1,"database unavailable
+"
+10.503,503,2004.6,"database unavailable
+"
+10.518,503,2002.9,"database unavailable
+"
+10.548,503,2002.2,"database unavailable
+"
+10.563,503,2002.6,"database unavailable
+"
+10.579,503,2003.0,"database unavailable
+"
+10.595,503,2004.7,"database unavailable
+"
+10.61,503,2002.5,"database unavailable
+"
+10.625,503,2002.6,"database unavailable
+"
+10.641,503,2003.3,"database unavailable
+"
+10.657,503,2003.1,"database unavailable
+"
+10.672,503,2003.6,"database unavailable
+"
+10.688,503,2003.6,"database unavailable
+"
+10.704,503,2003.8,"database unavailable
+"
+10.719,503,2003.0,"database unavailable
+"
+10.735,503,2002.5,"database unavailable
+"
+10.766,503,2002.8,"database unavailable
+"
+10.782,503,2003.0,"database unavailable
+"
+10.798,503,2038.2,"database unavailable
+"
+10.814,503,2022.4,"database unavailable
+"
+10.829,503,2007.6,"database unavailable
+"
+10.845,503,2006.2,"database unavailable
+"
+10.861,503,2010.7,"database unavailable
+"
+10.876,503,2004.3,"database unavailable
+"
+10.891,503,2003.5,"database unavailable
+"
+10.907,503,2003.5,"database unavailable
+"
+10.923,503,2004.4,"database unavailable
+"
+10.938,503,2001.8,"database unavailable
+"
+10.954,503,2003.1,"database unavailable
+"
+10.97,503,2003.5,"database unavailable
+"
+10.985,503,2002.5,"database unavailable
+"
+11.001,503,2002.8,"database unavailable
+"
+11.032,503,2003.5,"database unavailable
+"
+11.047,503,2003.6,"database unavailable
+"
+11.062,503,2007.4,"database unavailable
+"
+11.077,503,2011.5,"database unavailable
+"
+11.093,503,2003.6,"database unavailable
+"
+11.108,503,2003.2,"database unavailable
+"
+11.125,503,2003.0,"database unavailable
+"
+11.14,503,2002.8,"database unavailable
+"
+11.156,503,2006.0,"database unavailable
+"
+11.171,503,2002.7,"database unavailable
+"
+11.186,503,2004.2,"database unavailable
+"
+11.202,503,2002.2,"database unavailable
+"
+11.218,503,2007.4,"database unavailable
+"
+11.234,503,2003.4,"database unavailable
+"
+11.265,503,2002.7,"database unavailable
+"
+11.281,503,2003.4,"database unavailable
+"
+11.296,503,2003.0,"database unavailable
+"
+11.312,503,2002.2,"database unavailable
+"
+11.329,503,2003.0,"database unavailable
+"
+11.344,503,2002.9,"database unavailable
+"
+11.361,503,2002.6,"database unavailable
+"
+11.376,503,2003.2,"database unavailable
+"
+11.393,503,2003.4,"database unavailable
+"
+11.408,503,2002.2,"database unavailable
+"
+11.423,503,2003.6,"database unavailable
+"
+11.439,503,2002.6,"database unavailable
+"
+11.454,503,2002.4,"database unavailable
+"
+11.469,503,2002.2,"database unavailable
+"
+11.485,503,2004.9,"database unavailable
+"
+11.501,503,2005.7,"database unavailable
+"
+11.533,503,2003.8,"database unavailable
+"
+11.548,503,2002.6,"database unavailable
+"
+11.565,503,2003.5,"database unavailable
+"
+11.58,503,2002.9,"database unavailable
+"
+11.595,503,2002.6,"database unavailable
+"
+11.611,503,2004.9,"database unavailable
+"
+11.626,503,2004.7,"database unavailable
+"
+11.642,503,2002.9,"database unavailable
+"
+11.657,503,2002.4,"database unavailable
+"
+11.672,503,2003.6,"database unavailable
+"
+11.689,503,2007.0,"database unavailable
+"
+11.704,503,2010.2,"database unavailable
+"
+11.719,503,2003.7,"database unavailable
+"
+11.735,503,2002.5,"database unavailable
+"
+11.75,503,2003.2,"database unavailable
+"
+11.781,503,2003.1,"database unavailable
+"
+11.796,503,2002.3,"database unavailable
+"
+11.812,503,2002.7,"database unavailable
+"
+11.827,503,2002.6,"database unavailable
+"
+11.843,503,2005.8,"database unavailable
+"
+11.858,503,2006.5,"database unavailable
+"
+11.874,503,2006.8,"database unavailable
+"
+11.889,503,2005.6,"database unavailable
+"
+11.905,503,2006.9,"database unavailable
+"
+11.921,503,2006.8,"database unavailable
+"
+11.936,503,2003.4,"database unavailable
+"
+11.953,503,2005.6,"database unavailable
+"
+11.968,503,2005.2,"database unavailable
+"
+11.984,503,2006.5,"database unavailable
+"
+12.015,503,2006.4,"database unavailable
+"
+12.03,503,2006.5,"database unavailable
+"
+12.045,503,2005.2,"database unavailable
+"
+12.06,503,2006.4,"database unavailable
+"
+12.076,503,2007.0,"database unavailable
+"
+12.091,503,2004.3,"database unavailable
+"
+12.107,503,2004.3,"database unavailable
+"
+12.122,503,2003.4,"database unavailable
+"
+12.138,503,2002.5,"database unavailable
+"
+12.152,503,2002.8,"database unavailable
+"
+12.168,503,2003.2,"database unavailable
+"
+12.199,503,2001.8,"database unavailable
+"
+12.215,503,2001.9,"database unavailable
+"
+12.231,503,2003.1,"database unavailable
+"
+12.247,503,2003.2,"database unavailable
+"
+12.263,503,2003.7,"database unavailable
+"
+12.279,503,2001.6,"database unavailable
+"
+12.294,503,2002.5,"database unavailable
+"
+12.31,503,2002.1,"database unavailable
+"
+12.326,503,2005.9,"database unavailable
+"
+12.342,503,2002.0,"database unavailable
+"
+12.357,503,2002.5,"database unavailable
+"
+12.372,503,2002.0,"database unavailable
+"
+12.388,503,2002.5,"database unavailable
+"
+12.408,503,2002.1,"database unavailable
+"
+12.417,503,2001.7,"database unavailable
+"
+12.435,503,1992.5,"database unavailable
+"
+12.453,503,1989.6,"database unavailable
+"
+12.471,503,1968.8,"database unavailable
+"
+12.489,503,1937.5,"database unavailable
+"
+12.507,503,1942.5,"database unavailable
+"
+12.525,503,1905.6,"database unavailable
+"
+12.542,503,1889.2,"database unavailable
+"
+12.551,503,1896.7,"database unavailable
+"
+12.569,503,1870.2,"database unavailable
+"
+12.588,503,1850.0,"database unavailable
+"
+12.606,503,1829.3,"database unavailable
+"
+12.624,503,1817.1,"database unavailable
+"
+12.633,503,1816.1,"database unavailable
+"
+12.662,503,1788.0,"database unavailable
+"
+12.671,503,1778.8,"database unavailable
+"
+12.691,503,1746.2,"database unavailable
+"
+12.708,503,1730.2,"database unavailable
+"
+12.716,503,1732.7,"database unavailable
+"
+12.734,503,1697.9,"database unavailable
+"
+12.753,503,1682.9,"database unavailable
+"
+12.779,503,1658.3,"database unavailable
+"
+12.792,503,1658.3,"database unavailable
+"
+12.823,503,1623.4,"database unavailable
+"
+12.829,503,1616.0,"database unavailable
+"
+12.85,503,1592.7,"database unavailable
+"
+12.867,503,1576.5,"database unavailable
+"
+12.879,503,1567.3,"database unavailable
+"
+12.894,503,1547.9,"database unavailable
+"
+12.91,503,1531.9,"database unavailable
+"
+12.925,503,1518.4,"database unavailable
+"
+12.933,503,1515.6,"database unavailable
+"
+12.964,503,1477.7,"database unavailable
+"
+12.98,503,1463.0,"database unavailable
+"
+12.995,503,1453.7,"database unavailable
+"
+13.009,503,1438.8,"database unavailable
+"
+13.028,503,1404.2,"database unavailable
+"
+13.039,503,1388.2,"database unavailable
+"
+13.057,503,1385.1,"database unavailable
+"
+13.075,503,1355.0,"database unavailable
+"
+13.093,503,1350.0,"database unavailable
+"
+13.102,503,1344.3,"database unavailable
+"
+13.12,503,1318.7,"database unavailable
+"
+13.139,503,1310.9,"database unavailable
+"
+13.157,503,1284.6,"database unavailable
+"
+13.181,503,1269.0,"database unavailable
+"
+13.195,503,1237.9,"database unavailable
+"
+13.204,503,1229.6,"database unavailable
+"
+13.222,503,1215.8,"database unavailable
+"
+13.24,503,1195.3,"database unavailable
+"
+13.25,503,1201.5,"database unavailable
+"
+13.268,503,1173.6,"database unavailable
+"
+13.286,503,1154.4,"database unavailable
+"
+13.303,503,1144.1,"database unavailable
+"
+13.321,503,1112.8,"database unavailable
+"
+13.339,503,1095.6,"database unavailable
+"
+13.357,503,1075.6,"database unavailable
+"
+13.381,503,1062.4,"database unavailable
+"
+13.396,503,1028.7,"database unavailable
+"
+13.412,503,1023.0,"database unavailable
+"
+13.421,503,1026.9,"database unavailable
+"
+13.437,503,1011.0,"database unavailable
+"
+13.452,503,988.2,"database unavailable
+"
+13.469,503,971.4,"database unavailable
+"
+13.484,503,963.0,"database unavailable
+"
+13.515,503,923.0,"database unavailable
+"
+13.53,503,899.1,"database unavailable
+"
+13.545,503,885.7,"database unavailable
+"
+13.561,503,884.9,"database unavailable
+"
+13.571,503,869.9,"database unavailable
+"
+13.587,503,857.3,"database unavailable
+"
+13.602,503,846.4,"database unavailable
+"
+13.618,503,807.2,"database unavailable
+"
+13.638,503,790.3,"database unavailable
+"
+13.655,503,789.4,"database unavailable
+"
+13.673,503,753.5,"database unavailable
+"
+13.688,503,755.5,"database unavailable
+"
+13.703,503,741.4,"database unavailable
+"
+13.718,503,716.0,"database unavailable
+"
+13.734,503,701.9,"database unavailable
+"
+13.755,503,689.4,"database unavailable
+"
+13.782,503,664.3,"database unavailable
+"
+13.798,503,629.8,"database unavailable
+"
+13.813,503,614.3,"database unavailable
+"
+13.829,503,618.5,"database unavailable
+"
+13.838,503,612.2,"database unavailable
+"
+13.862,503,589.7,"database unavailable
+"
+13.878,503,552.4,"database unavailable
+"
+13.893,503,532.2,"database unavailable
+"
+13.912,503,533.5,"database unavailable
+"
+13.922,503,518.2,"database unavailable
+"
+13.939,503,489.3,"database unavailable
+"
+13.957,503,487.1,"database unavailable
+"
+13.974,503,463.0,"database unavailable
+"
+13.991,503,443.5,"database unavailable
+"
+14.012,503,424.6,"database unavailable
+"
+14.02,503,426.0,"database unavailable
+"
+14.038,503,404.3,"database unavailable
+"
+14.055,503,390.7,"database unavailable
+"
+14.074,503,370.8,"database unavailable
+"
+14.091,503,338.7,"database unavailable
+"
+14.109,503,335.2,"database unavailable
+"
+14.118,503,312.0,"database unavailable
+"
+14.149,503,292.7,"database unavailable
+"
+14.164,503,276.6,"database unavailable
+"
+14.179,503,260.5,"database unavailable
+"
+14.195,503,246.3,"database unavailable
+"
+14.21,503,241.0,"database unavailable
+"
+14.226,503,219.2,"database unavailable
+"
+14.234,503,203.6,"database unavailable
+"
+14.258,503,182.3,"database unavailable
+"
+14.274,503,174.8,"database unavailable
+"
+14.289,503,154.1,"database unavailable
+"
+14.304,503,133.2,"database unavailable
+"
+14.32,503,130.8,"database unavailable
+"
+14.335,503,101.3,"database unavailable
+"
+14.351,503,95.4,"database unavailable
+"
+14.375,503,64.2,"database unavailable
+"
+14.39,503,38.4,"database unavailable
+"
+14.405,503,39.7,"database unavailable
+"
+14.421,503,2001.7,"database unavailable
+"
+14.436,503,2013.4,"database unavailable
+"
+14.453,503,2002.0,"database unavailable
+"
+14.469,503,2002.4,"database unavailable
+"
+14.484,503,2004.9,"database unavailable
+"
+14.508,503,2005.5,"database unavailable
+"
+14.524,503,2006.1,"database unavailable
+"
+14.55,503,2004.2,"database unavailable
+"
+14.558,503,2003.0,"database unavailable
+"
+14.582,503,2004.3,"database unavailable
+"
+14.59,503,2004.1,"database unavailable
+"
+14.606,503,2004.5,"database unavailable
+"
+14.632,503,2005.0,"database unavailable
+"
+14.648,503,2004.5,"database unavailable
+"
+14.664,503,2006.2,"database unavailable
+"
+14.679,503,2007.8,"database unavailable
+"
+14.688,503,2004.9,"database unavailable
+"
+14.705,503,2004.7,"database unavailable
+"
+14.721,503,2004.9,"database unavailable
+"
+14.736,503,2002.3,"database unavailable
+"
+14.752,503,2003.4,"database unavailable
+"
+14.768,503,2002.9,"database unavailable
+"
+14.795,503,2004.6,"database unavailable
+"
+14.811,503,2003.6,"database unavailable
+"
+14.828,503,2002.3,"database unavailable
+"
+14.844,503,2003.5,"database unavailable
+"
+14.852,503,2002.6,"database unavailable
+"
+14.877,503,2003.4,"database unavailable
+"
+14.893,503,2004.1,"database unavailable
+"
+14.91,503,2003.9,"database unavailable
+"
+14.92,503,2003.5,"database unavailable
+"
+14.935,503,2003.1,"database unavailable
+"
+14.951,503,2005.9,"database unavailable
+"
+14.972,503,2005.3,"database unavailable
+"
+14.998,503,2002.2,"database unavailable
+"
+15.006,503,2002.6,"database unavailable
+"
+15.031,503,2002.4,"database unavailable
+"
+15.047,503,2002.9,"database unavailable
+"
+15.056,503,2002.4,"database unavailable
+"
+15.081,503,2003.4,"database unavailable
+"
+15.089,503,2002.5,"database unavailable
+"
+15.113,503,2002.7,"database unavailable
+"
+15.121,503,2004.4,"database unavailable
+"
+15.137,503,2002.5,"database unavailable
+"
+15.153,503,2002.2,"database unavailable
+"
+15.178,503,2002.5,"database unavailable
+"
+15.185,503,2001.7,"database unavailable
+"
+15.201,503,2004.4,"database unavailable
+"
+15.217,503,2002.6,"database unavailable
+"
+15.241,503,2002.7,"database unavailable
+"
+15.258,503,2004.1,"database unavailable
+"
+15.267,503,2002.9,"database unavailable
+"
+15.297,503,2002.3,"database unavailable
+"
+15.305,503,2002.5,"database unavailable
+"
+15.321,503,2002.2,"database unavailable
+"
+15.334,503,2003.0,"database unavailable
+"
+15.366,503,2001.7,"database unavailable
+"
+15.378,503,2005.9,"database unavailable
+"
+15.395,503,2004.9,"database unavailable
+"
+15.411,503,2003.1,"database unavailable
+"
+15.424,503,2003.6,"database unavailable
+"
+15.447,503,2002.7,"database unavailable
+"
+15.463,503,2003.9,"database unavailable
+"
+15.478,503,2003.5,"database unavailable
+"
+15.493,503,2003.7,"database unavailable
+"
+15.502,503,2003.1,"database unavailable
+"
+15.53,503,2003.1,"database unavailable
+"
+15.545,503,2003.2,"database unavailable
+"
+15.561,503,2003.2,"database unavailable
+"
+15.577,503,2003.5,"database unavailable
+"
+15.592,503,2003.2,"database unavailable
+"
+15.602,503,2002.9,"database unavailable
+"
+15.631,503,2003.0,"database unavailable
+"
+15.646,503,2003.7,"database unavailable
+"
+15.661,503,2003.3,"database unavailable
+"
+15.671,503,2002.1,"database unavailable
+"
+15.684,503,2003.3,"database unavailable
+"
+15.714,503,2003.4,"database unavailable
+"
+15.73,503,2003.3,"database unavailable
+"
+15.744,503,2002.7,"database unavailable
+"
+15.76,503,2003.0,"database unavailable
+"
+15.77,503,2004.1,"database unavailable
+"
+15.785,503,2002.5,"database unavailable
+"
+15.808,503,2003.1,"database unavailable
+"
+15.824,503,2002.5,"database unavailable
+"
+15.838,503,2002.5,"database unavailable
+"
+15.853,503,2003.0,"database unavailable
+"
+15.869,503,2002.3,"database unavailable
+"
+15.896,503,2003.0,"database unavailable
+"
+15.906,503,2002.6,"database unavailable
+"
+15.92,503,2007.0,"database unavailable
+"
+15.936,503,2008.3,"database unavailable
+"
+15.953,503,2003.3,"database unavailable
+"
+15.969,503,2003.7,"database unavailable
+"
+15.986,503,2003.5,"database unavailable
+"
+16.0,503,2003.0,"database unavailable
+"
+16.02,503,2002.6,"database unavailable
+"
+16.036,503,2003.7,"database unavailable
+"
+16.063,503,2002.6,"database unavailable
+"
+16.078,503,2003.2,"database unavailable
+"
+16.086,503,2003.6,"database unavailable
+"
+16.111,503,2003.8,"database unavailable
+"
+16.121,503,2004.8,"database unavailable
+"
+16.135,503,2003.5,"database unavailable
+"
+16.154,503,2005.4,"database unavailable
+"
+16.169,503,2005.9,"database unavailable
+"
+16.195,503,2004.2,"database unavailable
+"
+16.203,503,2004.0,"database unavailable
+"
+16.231,503,2004.0,"database unavailable
+"
+16.247,503,2006.8,"database unavailable
+"
+16.263,503,1980.7,"database unavailable
+"
+16.277,503,2002.9,"database unavailable
+"
+16.293,503,2003.1,"database unavailable
+"
+16.305,503,1938.6,"database unavailable
+"
+16.319,503,1983.0,"database unavailable
+"
+16.334,503,1963.4,"database unavailable
+"
+16.352,503,1889.4,"database unavailable
+"
+16.368,503,1931.7,"database unavailable
+"
+16.393,503,1906.7,"database unavailable
+"
+16.409,503,1842.3,"database unavailable
+"
+16.418,503,1880.4,"database unavailable
+"
+16.448,503,1851.3,"database unavailable
+"
+16.461,503,1786.1,"database unavailable
+"
+16.476,503,1822.3,"database unavailable
+"
+16.486,503,1811.8,"database unavailable
+"
+16.502,503,1746.8,"database unavailable
+"
+16.52,503,1782.5,"database unavailable
+"
+16.537,503,1756.8,"database unavailable
+"
+16.553,503,1692.0,"database unavailable
+"
+16.568,503,1739.6,"database unavailable
+"
+16.593,503,1707.1,"database unavailable
+"
+16.601,503,1644.3,"database unavailable
+"
+16.628,503,1613.8,"database unavailable
+"
+16.642,503,1659.5,"database unavailable
+"
+16.658,503,1592.5,"database unavailable
+"
+16.668,503,1627.9,"database unavailable
+"
+16.697,503,1602.1,"database unavailable
+"
+16.712,503,1535.3,"database unavailable
+"
+16.729,503,1511.9,"database unavailable
+"
+16.743,503,1546.5,"database unavailable
+"
+16.752,503,1498.4,"database unavailable
+"
+16.77,503,1475.0,"database unavailable
+"
+16.784,503,1510.1,"database unavailable
+"
+16.808,503,1431.5,"database unavailable
+"
+16.824,503,1421.0,"database unavailable
+"
+16.839,503,1459.5,"database unavailable
+"
+16.854,503,1386.8,"database unavailable
+"
+16.878,503,1418.5,"database unavailable
+"
+16.893,503,1404.2,"database unavailable
+"
+16.909,503,1337.0,"database unavailable
+"
+16.922,503,1327.2,"database unavailable
+"
+16.937,503,1365.3,"database unavailable
+"
+16.962,503,1285.7,"database unavailable
+"
+16.977,503,1263.0,"database unavailable
+"
+16.987,503,1308.8,"database unavailable
+"
+17.01,503,1236.2,"database unavailable
+"
+17.026,503,1225.6,"database unavailable
+"
+17.041,503,1252.1,"database unavailable
+"
+17.057,503,1192.2,"database unavailable
+"
+17.069,503,1229.8,"database unavailable
+"
+17.085,503,1220.4,"database unavailable
+"
+17.101,503,1141.9,"database unavailable
+"
+17.132,503,1171.2,"database unavailable
+"
+17.148,503,1159.0,"database unavailable
+"
+17.163,503,1083.3,"database unavailable
+"
+17.177,503,1127.3,"database unavailable
+"
+17.192,503,1103.8,"database unavailable
+"
+17.201,503,1048.4,"database unavailable
+"
+17.232,503,1071.1,"database unavailable
+"
+17.244,503,1050.5,"database unavailable
+"
+17.26,503,988.9,"database unavailable
+"
+17.279,503,1022.1,"database unavailable
+"
+17.291,503,1012.4,"database unavailable
+"
+17.306,503,943.6,"database unavailable
+"
+17.322,503,928.9,"database unavailable
+"
+17.338,503,967.4,"database unavailable
+"
+17.358,503,885.2,"database unavailable
+"
+17.382,503,862.4,"database unavailable
+"
+17.391,503,906.0,"database unavailable
+"
+17.405,503,839.1,"database unavailable
+"
+17.421,503,830.1,"database unavailable
+"
+17.436,503,870.3,"database unavailable
+"
+17.451,503,792.6,"database unavailable
+"
+17.481,503,812.0,"database unavailable
+"
+17.497,503,800.5,"database unavailable
+"
+17.512,503,733.6,"database unavailable
+"
+17.522,503,772.3,"database unavailable
+"
+17.547,503,757.6,"database unavailable
+"
+17.562,503,677.1,"database unavailable
+"
+17.578,503,664.8,"database unavailable
+"
+17.593,503,704.0,"database unavailable
+"
+17.612,503,627.6,"database unavailable
+"
+17.622,503,618.2,"database unavailable
+"
+17.64,503,666.7,"database unavailable
+"
+17.665,503,580.5,"database unavailable
+"
+17.681,503,567.9,"database unavailable
+"
+17.693,503,600.9,"database unavailable
+"
+17.702,503,546.4,"database unavailable
+"
+17.728,503,521.6,"database unavailable
+"
+17.743,503,549.7,"database unavailable
+"
+17.758,503,487.4,"database unavailable
+"
+17.774,503,474.1,"database unavailable
+"
+17.789,503,514.5,"database unavailable
+"
+17.805,503,445.2,"database unavailable
+"
+17.82,503,426.6,"database unavailable
+"
+17.836,503,467.6,"database unavailable
+"
+17.86,503,388.6,"database unavailable
+"
+17.875,503,372.7,"database unavailable
+"
+17.891,503,416.9,"database unavailable
+"
+17.907,503,335.4,"database unavailable
+"
+17.919,503,388.7,"database unavailable
+"
+17.943,503,358.6,"database unavailable
+"
+17.958,503,288.3,"database unavailable
+"
+17.968,503,339.0,"database unavailable
+"
+17.985,503,320.0,"database unavailable
+"
+18.001,503,247.9,"database unavailable
+"
+18.017,503,291.4,"database unavailable
+"
+18.048,503,259.5,"database unavailable
+"
+18.056,503,186.0,"database unavailable
+"
+18.072,503,236.2,"database unavailable
+"
+18.088,503,218.0,"database unavailable
+"
+18.104,503,146.1,"database unavailable
+"
+18.12,503,124.0,"database unavailable
+"
+18.135,503,172.3,"database unavailable
+"
+18.159,503,91.9,"database unavailable
+"
+18.175,503,66.7,"database unavailable
+"
+18.19,503,112.1,"database unavailable
+"
+18.208,503,43.4,"database unavailable
+"
+18.224,503,81.2,"database unavailable
+"
+18.246,503,58.9,"database unavailable
+"
+18.256,503,2003.3,"database unavailable
+"
+18.271,503,2002.5,"database unavailable
+"
+18.286,503,3.2,"database unavailable
+"
+18.305,503,2005.2,"database unavailable
+"
+18.325,503,2002.6,"database unavailable
+"
+18.341,503,2002.5,"database unavailable
+"
+18.356,503,2002.0,"database unavailable
+"
+18.383,503,2003.2,"database unavailable
+"
+18.398,503,2001.8,"database unavailable
+"
+18.408,503,2002.3,"database unavailable
+"
+18.423,503,2005.7,"database unavailable
+"
+18.448,503,2006.4,"database unavailable
+"
+18.455,503,2006.1,"database unavailable
+"
+18.481,503,2004.9,"database unavailable
+"
+18.493,503,2003.4,"database unavailable
+"
+18.501,503,2003.1,"database unavailable
+"
+18.518,503,2003.2,"database unavailable
+"
+18.542,503,2004.0,"database unavailable
+"
+18.552,503,2004.6,"database unavailable
+"
+18.582,503,2004.4,"database unavailable
+"
+18.598,503,2003.5,"database unavailable
+"
+18.613,503,2002.4,"database unavailable
+"
+18.622,503,2002.9,"database unavailable
+"
+18.637,503,2001.8,"database unavailable
+"
+18.662,503,2004.8,"database unavailable
+"
+18.677,503,2003.2,"database unavailable
+"
+18.693,503,2002.5,"database unavailable
+"
+18.701,503,2003.1,"database unavailable
+"
+18.718,503,2002.7,"database unavailable
+"
+18.742,503,2003.0,"database unavailable
+"
+18.752,503,2002.5,"database unavailable
+"
+18.779,503,2003.1,"database unavailable
+"
+18.795,503,2002.1,"database unavailable
+"
+18.81,503,2001.7,"database unavailable
+"
+18.825,503,2002.1,"database unavailable
+"
+18.835,503,2001.9,"database unavailable
+"
+18.852,503,2002.7,"database unavailable
+"
+18.881,503,2002.9,"database unavailable
+"
+18.897,503,2003.2,"database unavailable
+"
+18.911,503,2003.5,"database unavailable
+"
+18.92,503,2002.9,"database unavailable
+"
+18.936,503,2001.7,"database unavailable
+"
+18.952,503,2002.6,"database unavailable
+"
+18.967,503,2002.6,"database unavailable
+"
+18.991,503,2004.7,"database unavailable
+"
+19.0,503,2005.6,"database unavailable
+"
+19.027,503,2003.3,"database unavailable
+"
+19.042,503,2003.6,"database unavailable
+"
+19.052,503,2002.5,"database unavailable
+"
+19.077,503,2002.5,"database unavailable
+"
+19.092,503,2002.4,"database unavailable
+"
+19.101,503,2001.8,"database unavailable
+"
+19.125,503,2002.8,"database unavailable
+"
+19.141,503,2004.9,"database unavailable
+"
+19.151,503,2007.0,"database unavailable
+"
+19.168,503,2003.7,"database unavailable
+"
+19.198,503,2002.6,"database unavailable
+"
+19.206,503,2004.1,"database unavailable
+"
+19.223,503,2002.5,"database unavailable
+"
+19.24,503,2002.6,"database unavailable
+"
+19.263,503,2003.0,"database unavailable
+"
+19.278,503,2003.0,"database unavailable
+"
+19.293,503,2003.9,"database unavailable
+"
+19.309,503,2003.3,"database unavailable
+"
+19.329,503,2003.9,"database unavailable
+"
+19.344,503,2003.4,"database unavailable
+"
+19.359,503,2045.7,"database unavailable
+"
+19.373,503,2032.4,"database unavailable
+"
+19.386,503,2019.6,"database unavailable
+"
+19.416,503,2003.0,"database unavailable
+"
+19.432,503,2005.7,"database unavailable
+"
+19.447,503,2001.8,"database unavailable
+"
+19.46,503,2003.7,"database unavailable
+"
+19.468,503,2003.7,"database unavailable
+"
+19.499,503,2003.0,"database unavailable
+"
+19.511,503,2001.6,"database unavailable
+"
+19.52,503,2002.6,"database unavailable
+"
+19.535,503,2003.3,"database unavailable
+"
+19.561,503,2007.5,"database unavailable
+"
+19.578,503,2008.7,"database unavailable
+"
+19.592,503,2006.9,"database unavailable
+"
+19.603,503,2006.1,"database unavailable
+"
+19.627,503,2003.6,"database unavailable
+"
+19.643,503,2004.8,"database unavailable
+"
+19.651,503,2003.2,"database unavailable
+"
+19.678,503,2004.8,"database unavailable
+"
+19.693,503,2004.3,"database unavailable
+"
+19.709,503,2007.3,"database unavailable
+"
+19.719,503,2007.0,"database unavailable
+"
+19.734,503,2006.6,"database unavailable
+"
+19.759,503,2004.2,"database unavailable
+"
+19.77,503,2006.0,"database unavailable
+"
+19.792,503,2005.4,"database unavailable
+"
+19.803,503,2007.1,"database unavailable
+"
+19.824,503,2007.7,"database unavailable
+"
+19.848,503,2005.8,"database unavailable
+"
+19.863,503,2004.6,"database unavailable
+"
+19.872,503,2004.6,"database unavailable
+"
+19.888,503,2003.5,"database unavailable
+"
+19.906,503,2003.3,"database unavailable
+"
+19.922,503,2004.3,"database unavailable
+"
+19.937,503,2003.8,"database unavailable
+"
+19.962,503,2003.4,"database unavailable
+"
+19.979,503,2007.2,"database unavailable
+"
+19.994,503,2005.2,"database unavailable
+"
+20.003,503,2005.8,"database unavailable
+"
+20.022,503,2006.0,"database unavailable
+"
+20.043,503,2006.6,"database unavailable
+"
+20.059,503,2007.1,"database unavailable
+"
+20.069,503,2004.2,"database unavailable
+"
+20.092,503,2003.9,"database unavailable
+"
+20.102,503,2004.2,"database unavailable
+"
+20.118,503,2003.9,"database unavailable
+"
+20.146,503,2002.9,"database unavailable
+"
+20.162,503,1946.9,"database unavailable
+"
+20.177,503,1934.7,"database unavailable
+"
+20.194,503,1971.3,"database unavailable
+"
+20.203,503,1903.2,"database unavailable
+"
+20.228,503,1880.4,"database unavailable
+"
+20.243,503,1919.2,"database unavailable
+"
+20.259,503,1848.5,"database unavailable
+"
+20.268,503,1903.5,"database unavailable
+"
+20.289,503,1876.2,"database unavailable
+"
+20.313,503,1796.9,"database unavailable
+"
+20.328,503,1784.7,"database unavailable
+"
+20.343,503,1823.0,"database unavailable
+"
+20.359,503,1750.3,"database unavailable
+"
+20.378,503,1732.9,"database unavailable
+"
+20.394,503,1769.4,"database unavailable
+"
+20.409,503,1702.7,"database unavailable
+"
+20.426,503,1741.4,"database unavailable
+"
+20.434,503,1737.6,"database unavailable
+"
+20.451,503,1659.9,"database unavailable
+"
+20.467,503,1699.8,"database unavailable
+"
+20.491,503,1675.8,"database unavailable
+"
+20.515,503,1599.5,"database unavailable
+"
+20.531,503,1632.9,"database unavailable
+"
+20.546,503,1626.3,"database unavailable
+"
+20.555,503,1557.6,"database unavailable
+"
+20.571,503,1544.5,"database unavailable
+"
+20.587,503,1577.2,"database unavailable
+"
+20.61,503,1502.1,"database unavailable
+"
+20.625,503,1541.0,"database unavailable
+"
+20.633,503,1532.9,"database unavailable
+"
+20.664,503,1450.9,"database unavailable
+"
+20.673,503,1497.9,"database unavailable
+"
+20.688,503,1482.3,"database unavailable
+"
+20.707,503,1405.8,"database unavailable
+"
+20.722,503,1390.3,"database unavailable
+"
+20.738,503,1432.4,"database unavailable
+"
+20.753,503,1359.6,"database unavailable
+"
+20.768,503,1402.3,"database unavailable
+"
+20.8,503,1368.6,"database unavailable
+"
+20.816,503,1298.1,"database unavailable
+"
+20.831,503,1280.2,"database unavailable
+"
+20.846,503,1322.5,"database unavailable
+"
+20.861,503,1252.3,"database unavailable
+"
+20.877,503,1235.8,"database unavailable
+"
+20.885,503,1282.8,"database unavailable
+"
+20.911,503,1201.0,"database unavailable
+"
+20.93,503,1184.5,"database unavailable
+"
+20.945,503,1222.6,"database unavailable
+"
+20.961,503,1153.0,"database unavailable
+"
+20.977,503,1137.9,"database unavailable
+"
+20.998,503,1172.6,"database unavailable
+"
+21.014,503,1098.8,"database unavailable
+"
+21.03,503,1085.2,"database unavailable
+"
+21.048,503,1121.8,"database unavailable
+"
+21.063,503,1051.2,"database unavailable
+"
+21.079,503,1093.2,"database unavailable
+"
+21.094,503,1075.1,"database unavailable
+"
+21.109,503,1004.6,"database unavailable
+"
+21.124,503,1044.4,"database unavailable
+"
+21.14,503,1026.1,"database unavailable
+"
+21.156,503,957.3,"database unavailable
+"
+21.168,503,993.9,"database unavailable
+"
+21.198,503,963.5,"database unavailable
+"
+21.214,503,899.3,"database unavailable
+"
+21.229,503,886.4,"database unavailable
+"
+21.244,503,922.9,"database unavailable
+"
+21.26,503,850.2,"database unavailable
+"
+21.267,503,904.8,"database unavailable
+"
+21.299,503,868.9,"database unavailable
+"
+21.302,503,806.8,"database unavailable
+"
+21.318,503,850.1,"database unavailable
+"
+21.348,503,818.5,"database unavailable
+"
+21.385,503,730.1,"database unavailable
+"
+21.385,503,783.5,"database unavailable
+"
+21.391,503,723.5,"database unavailable
+"
+21.401,503,709.8,"database unavailable
+"
+21.416,503,748.2,"database unavailable
+"
+21.435,503,733.5,"database unavailable
+"
+21.451,503,654.0,"database unavailable
+"
+21.483,503,627.3,"database unavailable
+"
+21.498,503,667.8,"database unavailable
+"
+21.505,503,608.6,"database unavailable
+"
+21.52,503,594.8,"database unavailable
+"
+21.536,503,633.9,"database unavailable
+"
+21.551,503,559.9,"database unavailable
+"
+21.583,503,524.4,"database unavailable
+"
+21.585,503,584.6,"database unavailable
+"
+21.615,503,489.2,"database unavailable
+"
+21.632,503,472.1,"database unavailable
+"
+21.647,503,520.8,"database unavailable
+"
+21.662,503,447.2,"database unavailable
+"
+21.673,503,498.1,"database unavailable
+"
+21.689,503,478.2,"database unavailable
+"
+21.716,503,391.2,"database unavailable
+"
+21.731,503,381.0,"database unavailable
+"
+21.742,503,428.1,"database unavailable
+"
+21.756,503,355.5,"database unavailable
+"
+21.769,503,400.0,"database unavailable
+"
+21.784,503,383.4,"database unavailable
+"
+21.805,503,307.0,"database unavailable
+"
+21.821,503,348.3,"database unavailable
+"
+21.836,503,330.9,"database unavailable
+"
+21.851,503,260.9,"database unavailable
+"
+21.879,503,284.2,"database unavailable
+"
+21.894,503,273.3,"database unavailable
+"
+21.91,503,203.4,"database unavailable
+"
+21.926,503,184.7,"database unavailable
+"
+21.94,503,231.4,"database unavailable
+"
+21.956,503,158.8,"database unavailable
+"
+21.971,503,143.4,"database unavailable
+"
+22.0,503,168.7,"database unavailable
+"
+22.015,503,98.7,"database unavailable
+"
+22.032,503,137.0,"database unavailable
+"
+22.045,503,125.6,"database unavailable
+"
+22.059,503,47.3,"database unavailable
+"
+22.074,503,94.9,"database unavailable
+"
+22.087,503,79.1,"database unavailable
+"
+22.1,503,2004.5,"database unavailable
+"
+22.131,503,38.9,"database unavailable
+"
+22.142,503,19.9,"database unavailable
+"
+22.156,503,2004.3,"database unavailable
+"
+22.172,503,2003.6,"database unavailable
+"
+22.184,503,2003.8,"database unavailable
+"
+22.211,503,2003.6,"database unavailable
+"
+22.227,503,2004.4,"database unavailable
+"
+22.242,503,2003.0,"database unavailable
+"
+22.258,503,2004.3,"database unavailable
+"
+22.273,503,2004.1,"database unavailable
+"
+22.285,503,2003.7,"database unavailable
+"
+22.311,503,2003.4,"database unavailable
+"
+22.327,503,2002.8,"database unavailable
+"
+22.342,503,2002.9,"database unavailable
+"
+22.351,503,2003.6,"database unavailable
+"
+22.38,503,2004.6,"database unavailable
+"
+22.394,503,2004.3,"database unavailable
+"
+22.409,503,2003.9,"database unavailable
+"
+22.425,503,2003.6,"database unavailable
+"
+22.443,503,2003.3,"database unavailable
+"
+22.457,503,2003.6,"database unavailable
+"
+22.471,503,2004.0,"database unavailable
+"
+22.499,503,2003.3,"database unavailable
+"
+22.509,503,2004.1,"database unavailable
+"
+22.522,503,2004.7,"database unavailable
+"
+22.536,503,2003.9,"database unavailable
+"
+22.562,503,2003.6,"database unavailable
+"
+22.571,503,2004.0,"database unavailable
+"
+22.599,503,2003.9,"database unavailable
+"
+22.612,503,2003.7,"database unavailable
+"
+22.623,503,2003.9,"database unavailable
+"
+22.636,503,2003.1,"database unavailable
+"
+22.651,503,2003.7,"database unavailable
+"
+22.68,503,2005.1,"database unavailable
+"
+22.694,503,2004.5,"database unavailable
+"
+22.709,503,2003.8,"database unavailable
+"
+22.727,503,2003.9,"database unavailable
+"
+22.74,503,2004.0,"database unavailable
+"
+22.753,503,2004.2,"database unavailable
+"
+22.776,503,2003.1,"database unavailable
+"
+22.793,503,2004.0,"database unavailable
+"
+22.81,503,2004.1,"database unavailable
+"
+22.826,503,2005.3,"database unavailable
+"
+22.842,503,2004.4,"database unavailable
+"
+22.857,503,2003.4,"database unavailable
+"
+22.872,503,2003.7,"database unavailable
+"
+22.886,503,2004.2,"database unavailable
+"
+22.912,503,2005.0,"database unavailable
+"
+22.927,503,2003.8,"database unavailable
+"
+22.941,503,2004.9,"database unavailable
+"
+22.954,503,2004.5,"database unavailable
+"
+22.969,503,2004.0,"database unavailable
+"
+22.997,503,2006.0,"database unavailable
+"
+23.012,503,2009.2,"database unavailable
+"
+23.027,503,2009.3,"database unavailable
+"
+23.041,503,2004.8,"database unavailable
+"
+23.06,503,2007.2,"database unavailable
+"
+23.07,503,2006.1,"database unavailable
+"
+23.099,503,2008.2,"database unavailable
+"
+23.114,503,2004.5,"database unavailable
+"
+23.124,503,2003.7,"database unavailable
+"
+23.138,503,2003.1,"database unavailable
+"
+23.151,503,2005.3,"database unavailable
+"
+23.177,503,2005.2,"database unavailable
+"
+23.192,503,2003.8,"database unavailable
+"
+23.202,503,2003.6,"database unavailable
+"
+23.227,503,2004.5,"database unavailable
+"
+23.241,503,2004.3,"database unavailable
+"
+23.252,503,2004.2,"database unavailable
+"
+23.277,503,2004.4,"database unavailable
+"
+23.292,503,2004.8,"database unavailable
+"
+23.308,503,2003.5,"database unavailable
+"
+23.323,503,2004.2,"database unavailable
+"
+23.34,503,2003.6,"database unavailable
+"
+23.351,503,2003.5,"database unavailable
+"
+23.382,503,2004.5,"database unavailable
+"
+23.398,503,2003.9,"database unavailable
+"
+23.412,503,2002.9,"database unavailable
+"
+23.422,503,2004.3,"database unavailable
+"
+23.434,503,2003.9,"database unavailable
+"
+23.465,503,2003.4,"database unavailable
+"
+23.482,503,2003.9,"database unavailable
+"
+23.495,503,2003.7,"database unavailable
+"
+23.51,503,2004.8,"database unavailable
+"
+23.52,503,2004.5,"database unavailable
+"
+23.534,503,2004.3,"database unavailable
+"
+23.559,503,2003.6,"database unavailable
+"
+23.575,503,2003.9,"database unavailable
+"
+23.591,503,2004.3,"database unavailable
+"
+23.605,503,2004.8,"database unavailable
+"
+23.619,503,2004.4,"database unavailable
+"
+23.648,503,2003.8,"database unavailable
+"
+23.663,503,2004.5,"database unavailable
+"
+23.679,503,2004.6,"database unavailable
+"
+23.693,503,2003.5,"database unavailable
+"
+23.708,503,2004.3,"database unavailable
+"
+23.725,503,2004.4,"database unavailable
+"
+23.742,503,2003.7,"database unavailable
+"
+23.758,503,2003.7,"database unavailable
+"
+23.775,503,2003.9,"database unavailable
+"
+23.79,503,2003.2,"database unavailable
+"
+23.809,503,2003.0,"database unavailable
+"
+23.824,503,2003.5,"database unavailable
+"
+23.839,503,2003.7,"database unavailable
+"
+23.855,503,2003.4,"database unavailable
+"
+23.879,503,2003.3,"database unavailable
+"
+23.893,503,2003.9,"database unavailable
+"
+23.907,503,2004.0,"database unavailable
+"
+23.923,503,2003.3,"database unavailable
+"
+23.939,503,2005.0,"database unavailable
+"
+23.951,503,2001.8,"database unavailable
+"
+23.979,503,1975.4,"database unavailable
+"
+23.992,503,2004.2,"database unavailable
+"
+24.004,503,1947.9,"database unavailable
+"
+24.019,503,2014.2,"database unavailable
+"
+24.046,503,1993.6,"database unavailable
+"
+24.061,503,1895.3,"database unavailable
+"
+24.075,503,1879.0,"database unavailable
+"
+24.089,503,1935.9,"database unavailable
+"
+24.103,503,1843.0,"database unavailable
+"
+24.129,503,1886.3,"database unavailable
+"
+24.145,503,1872.1,"database unavailable
+"
+24.16,503,1792.4,"database unavailable
+"
+24.175,503,1845.4,"database unavailable
+"
+24.192,503,1836.3,"database unavailable
+"
+24.208,503,1745.8,"database unavailable
+"
+24.224,503,1798.9,"database unavailable
+"
+24.249,503,1782.0,"database unavailable
+"
+24.264,503,1693.6,"database unavailable
+"
+24.28,503,1665.5,"database unavailable
+"
+24.296,503,1740.2,"database unavailable
+"
+24.31,503,1637.6,"database unavailable
+"
+24.325,503,1704.9,"database unavailable
+"
+24.341,503,1690.2,"database unavailable
+"
+24.357,503,1597.3,"database unavailable
+"
+24.37,503,1580.0,"database unavailable
+"
+24.398,503,1640.1,"database unavailable
+"
+24.414,503,1540.6,"database unavailable
+"
+24.425,503,1602.9,"database unavailable
+"
+24.439,503,1593.2,"database unavailable
+"
+24.453,503,1502.4,"database unavailable
+"
+24.48,503,1547.9,"database unavailable
+"
+24.496,503,1538.6,"database unavailable
+"
+24.507,503,1445.9,"database unavailable
+"
+24.52,503,1436.4,"database unavailable
+"
+24.547,503,1487.5,"database unavailable
+"
+24.558,503,1393.2,"database unavailable
+"
+24.569,503,1386.8,"database unavailable
+"
+24.597,503,1433.2,"database unavailable
+"
+24.611,503,1347.5,"database unavailable
+"
+24.625,503,1407.4,"database unavailable
+"
+24.638,503,1383.7,"database unavailable
+"
+24.652,503,1303.2,"database unavailable
+"
+24.667,503,1362.8,"database unavailable
+"
+24.699,503,1332.8,"database unavailable
+"
+24.714,503,1243.6,"database unavailable
+"
+24.726,503,1231.0,"database unavailable
+"
+24.741,503,1291.9,"database unavailable
+"
+24.756,503,1199.9,"database unavailable
+"
+24.767,503,1268.1,"database unavailable
+"
+24.797,503,1238.7,"database unavailable
+"
+24.812,503,1146.2,"database unavailable
+"
+24.828,503,1125.9,"database unavailable
+"
+24.843,503,1198.3,"database unavailable
+"
+24.858,503,1095.4,"database unavailable
+"
+24.874,503,1076.4,"database unavailable
+"
+24.888,503,1152.5,"database unavailable
+"
+24.902,503,1054.3,"database unavailable
+"
+24.93,503,1104.0,"database unavailable
+"
+24.945,503,1094.7,"database unavailable
+"
+24.96,503,996.3,"database unavailable
+"
+24.976,503,1049.8,"database unavailable
+"
+24.991,503,1039.5,"database unavailable
+"
+25.001,503,957.1,"database unavailable
+"
+25.028,503,986.7,"database unavailable
+"
+25.044,503,971.7,"database unavailable
+"
+25.059,503,897.7,"database unavailable
+"
+25.075,503,879.9,"database unavailable
+"
+25.09,503,924.7,"database unavailable
+"
+25.101,503,843.0,"database unavailable
+"
+25.131,503,892.9,"database unavailable
+"
+25.147,503,873.0,"database unavailable
+"
+25.163,503,783.9,"database unavailable
+"
+25.178,503,768.7,"database unavailable
+"
+25.194,503,835.0,"database unavailable
+"
+25.207,503,746.6,"database unavailable
+"
+25.222,503,728.7,"database unavailable
+"
+25.235,503,801.7,"database unavailable
+"
+25.263,503,691.4,"database unavailable
+"
+25.274,503,680.7,"database unavailable
+"
+25.29,503,748.2,"database unavailable
+"
+25.305,503,648.5,"database unavailable
+"
+25.321,503,627.6,"database unavailable
+"
+25.336,503,691.1,"database unavailable
+"
+25.351,503,598.9,"database unavailable
+"
+25.381,503,568.3,"database unavailable
+"
+25.391,503,638.8,"database unavailable
+"
+25.405,503,547.3,"database unavailable
+"
+25.418,503,619.6,"database unavailable
+"
+25.446,503,584.9,"database unavailable
+"
+25.463,503,493.2,"database unavailable
+"
+25.474,503,561.7,"database unavailable
+"
+25.489,503,544.3,"database unavailable
+"
+25.503,503,445.9,"database unavailable
+"
+25.516,503,515.9,"database unavailable
+"
+25.544,503,474.6,"database unavailable
+"
+25.557,503,400.8,"database unavailable
+"
+25.571,503,377.3,"database unavailable
+"
+25.585,503,434.0,"database unavailable
+"
+25.612,503,335.3,"database unavailable
+"
+25.626,503,395.4,"database unavailable
+"
+25.64,503,388.4,"database unavailable
+"
+25.666,503,291.0,"database unavailable
+"
+25.682,503,274.9,"database unavailable
+"
+25.691,503,334.8,"database unavailable
+"
+25.705,503,246.6,"database unavailable
+"
+25.719,503,307.6,"database unavailable
+"
+25.734,503,298.0,"database unavailable
+"
+25.765,503,191.5,"database unavailable
+"
+25.78,503,173.3,"database unavailable
+"
+25.793,503,221.4,"database unavailable
+"
+25.809,503,148.2,"database unavailable
+"
+25.824,503,132.8,"database unavailable
+"
+25.841,503,188.9,"database unavailable
+"
+25.855,503,100.9,"database unavailable
+"
+25.869,503,157.3,"database unavailable
+"
+25.883,503,138.6,"database unavailable
+"
+25.911,503,33.8,"database unavailable
+"
+25.927,503,97.2,"database unavailable
+"
+25.941,503,96.4,"database unavailable
+"
+25.958,503,2002.6,"database unavailable
+"
+25.981,503,2004.3,"database unavailable
+"
+25.995,503,18.6,"database unavailable
+"
+26.008,503,2004.8,"database unavailable
+"
+26.029,503,2007.8,"database unavailable
+"
+26.04,503,2004.8,"database unavailable
+"
+26.052,503,2003.5,"database unavailable
+"
+26.077,503,2003.1,"database unavailable
+"
+26.093,503,2003.1,"database unavailable
+"
+26.108,503,2003.4,"database unavailable
+"
+26.124,503,2003.4,"database unavailable
+"
+26.137,503,2002.8,"database unavailable
+"
+26.152,503,2003.6,"database unavailable
+"
+26.18,503,2003.9,"database unavailable
+"
+26.196,503,2003.3,"database unavailable
+"
+26.207,503,2003.7,"database unavailable
+"
+26.221,503,2003.2,"database unavailable
+"
+26.235,503,2003.0,"database unavailable
+"
+26.26,503,2003.7,"database unavailable
+"
+26.275,503,2004.2,"database unavailable
+"
+26.29,503,2003.2,"database unavailable
+"
+26.302,503,2004.4,"database unavailable
+"
+26.329,503,2003.8,"database unavailable
+"
+26.342,503,2003.4,"database unavailable
+"
+26.352,503,2004.2,"database unavailable
+"
+26.377,503,2002.9,"database unavailable
+"
+26.392,503,2002.7,"database unavailable
+"
+26.409,503,2003.1,"database unavailable
+"
+26.421,503,2003.1,"database unavailable
+"
+26.438,503,2003.4,"database unavailable
+"
+26.463,503,2003.9,"database unavailable
+"
+26.48,503,2001.8,"database unavailable
+"
+26.495,503,2002.4,"database unavailable
+"
+26.511,503,2001.8,"database unavailable
+"
+26.524,503,2004.0,"database unavailable
+"
+26.538,503,2003.0,"database unavailable
+"
+26.551,503,2003.1,"database unavailable
+"
+26.581,503,2002.9,"database unavailable
+"
+26.591,503,2003.5,"database unavailable
+"
+26.606,503,2002.7,"database unavailable
+"
+26.619,503,2003.6,"database unavailable
+"
+26.635,503,2003.9,"database unavailable
+"
+26.665,503,2003.0,"database unavailable
+"
+26.681,503,2003.1,"database unavailable
+"
+26.707,503,2016.5,"database unavailable
+"
+26.708,503,2016.7,"database unavailable
+"
+26.722,503,2005.3,"database unavailable
+"
+26.739,503,2003.6,"database unavailable
+"
+26.763,503,2003.8,"database unavailable
+"
+26.774,503,2002.3,"database unavailable
+"
+26.789,503,2002.4,"database unavailable
+"
+26.809,503,2006.6,"database unavailable
+"
+26.824,503,2003.8,"database unavailable
+"
+26.84,503,2003.1,"database unavailable
+"
+26.855,503,2003.7,"database unavailable
+"
+26.878,503,2003.9,"database unavailable
+"
+26.892,503,2001.8,"database unavailable
+"
+26.908,503,2002.7,"database unavailable
+"
+26.924,503,2003.1,"database unavailable
+"
+26.939,503,2002.3,"database unavailable
+"
+26.961,503,2005.6,"database unavailable
+"
+26.977,503,2002.8,"database unavailable
+"
+26.992,503,2002.1,"database unavailable
+"
+27.008,503,2003.1,"database unavailable
+"
+27.027,503,2002.4,"database unavailable
+"
+27.04,503,2003.1,"database unavailable
+"
+27.061,503,2007.5,"database unavailable
+"
+27.071,503,2007.2,"database unavailable
+"
+27.086,503,2003.9,"database unavailable
+"
+27.11,503,2003.9,"database unavailable
+"
+27.126,503,2002.4,"database unavailable
+"
+27.141,503,2002.8,"database unavailable
+"
+27.157,503,2003.5,"database unavailable
+"
+27.173,503,2003.8,"database unavailable
+"
+27.184,503,2003.1,"database unavailable
+"
+27.215,503,2002.6,"database unavailable
+"
+27.23,503,2003.8,"database unavailable
+"
+27.246,503,2007.7,"database unavailable
+"
+27.261,503,2005.4,"database unavailable
+"
+27.276,503,2005.9,"database unavailable
+"
+27.29,503,2003.8,"database unavailable
+"
+27.304,503,2005.0,"database unavailable
+"
+27.318,503,2005.7,"database unavailable
+"
+27.344,503,2004.5,"database unavailable
+"
+27.359,503,2002.7,"database unavailable
+"
+27.375,503,2002.4,"database unavailable
+"
+27.384,503,2002.8,"database unavailable
+"
+27.415,503,2005.7,"database unavailable
+"
+27.429,503,2007.6,"database unavailable
+"
+27.444,503,2006.9,"database unavailable
+"
+27.459,503,2004.9,"database unavailable
+"
+27.472,503,2004.7,"database unavailable
+"
+27.487,503,2004.5,"database unavailable
+"
+27.502,503,2004.5,"database unavailable
+"
+27.53,503,2004.2,"database unavailable
+"
+27.543,503,2003.7,"database unavailable
+"
+27.557,503,2003.7,"database unavailable
+"
+27.573,503,2003.9,"database unavailable
+"
+27.586,503,2005.3,"database unavailable
+"
+27.601,503,2004.8,"database unavailable
+"
+27.63,503,2013.6,"database unavailable
+"
+27.64,503,2009.9,"database unavailable
+"
+27.655,503,2006.5,"database unavailable
+"
+27.671,503,2005.3,"database unavailable
+"
+27.686,503,2005.1,"database unavailable
+"
+27.702,503,2005.5,"database unavailable
+"
+27.718,503,2003.1,"database unavailable
+"
+27.748,503,2003.4,"database unavailable
+"
+27.763,503,2003.3,"database unavailable
+"
+27.782,503,2003.4,"database unavailable
+"
+27.797,503,2003.9,"database unavailable
+"
+27.814,503,1985.0,"database unavailable
+"
+27.818,503,2003.8,"database unavailable
+"
+27.849,503,1956.5,"database unavailable
+"
+27.856,503,1950.7,"database unavailable
+"
+27.883,503,1921.3,"database unavailable
+"
+27.9,503,2018.8,"database unavailable
+"
+27.915,503,1888.9,"database unavailable
+"
+27.932,503,1870.1,"database unavailable
+"
+27.95,503,1963.4,"database unavailable
+"
+27.965,503,1826.3,"database unavailable
+"
+27.981,503,1820.0,"database unavailable
+"
+27.996,503,1894.3,"database unavailable
+"
+28.013,503,1785.7,"database unavailable
+"
+28.028,503,1768.8,"database unavailable
+"
+28.042,503,1851.4,"database unavailable
+"
+28.058,503,1735.1,"database unavailable
+"
+28.074,503,1733.8,"database unavailable
+"
+28.089,503,1816.0,"database unavailable
+"
+28.105,503,1693.3,"database unavailable
+"
+28.13,503,1759.4,"database unavailable
+"
+28.147,503,1778.0,"database unavailable
+"
+28.152,503,1642.1,"database unavailable
+"
+28.168,503,1729.2,"database unavailable
+"
+28.198,503,1714.8,"database unavailable
+"
+28.213,503,1587.1,"database unavailable
+"
+28.228,503,1572.4,"database unavailable
+"
+28.244,503,1677.0,"database unavailable
+"
+28.259,503,1545.8,"database unavailable
+"
+28.28,503,1523.1,"database unavailable
+"
+28.296,503,1632.6,"database unavailable
+"
+28.311,503,1496.1,"database unavailable
+"
+28.327,503,1480.7,"database unavailable
+"
+28.342,503,1582.4,"database unavailable
+"
+28.357,503,1446.8,"database unavailable
+"
+28.373,503,1427.3,"database unavailable
+"
+28.388,503,1508.3,"database unavailable
+"
+28.403,503,1392.6,"database unavailable
+"
+28.431,503,1462.4,"database unavailable
+"
+28.446,503,1468.0,"database unavailable
+"
+28.462,503,1348.4,"database unavailable
+"
+28.477,503,1432.6,"database unavailable
+"
+28.492,503,1400.0,"database unavailable
+"
+28.507,503,1301.8,"database unavailable
+"
+28.532,503,1270.3,"database unavailable
+"
+28.547,503,1344.4,"database unavailable
+"
+28.562,503,1240.6,"database unavailable
+"
+28.578,503,1323.8,"database unavailable
+"
+28.594,503,1312.0,"database unavailable
+"
+28.609,503,1189.8,"database unavailable
+"
+28.625,503,1178.3,"database unavailable
+"
+28.64,503,1281.8,"database unavailable
+"
+28.651,503,1158.8,"database unavailable
+"
+28.683,503,1114.4,"database unavailable
+"
+28.684,503,1218.5,"database unavailable
+"
+28.709,503,1098.8,"database unavailable
+"
+28.724,503,1202.6,"database unavailable
+"
+28.748,503,1143.0,"database unavailable
+"
+28.763,503,1040.0,"database unavailable
+"
+28.783,503,1025.7,"database unavailable
+"
+28.798,503,1097.3,"database unavailable
+"
+28.816,503,996.7,"database unavailable
+"
+28.83,503,975.2,"database unavailable
+"
+28.848,503,1067.4,"database unavailable
+"
+28.865,503,940.9,"database unavailable
+"
+28.881,503,911.8,"database unavailable
+"
+28.884,503,1006.8,"database unavailable
+"
+28.915,503,891.6,"database unavailable
+"
+28.93,503,964.5,"database unavailable
+"
+28.947,503,946.8,"database unavailable
+"
+28.965,503,831.6,"database unavailable
+"
+28.98,503,815.2,"database unavailable
+"
+28.995,503,899.4,"database unavailable
+"
+29.015,503,779.4,"database unavailable
+"
+29.032,503,765.6,"database unavailable
+"
+29.046,503,873.4,"database unavailable
+"
+29.062,503,740.1,"database unavailable
+"
+29.078,503,726.9,"database unavailable
+"
+29.093,503,808.6,"database unavailable
+"
+29.115,503,689.9,"database unavailable
+"
+29.13,503,762.0,"database unavailable
+"
+29.146,503,769.4,"database unavailable
+"
+29.161,503,642.8,"database unavailable
+"
+29.176,503,627.0,"database unavailable
+"
+29.192,503,697.3,"database unavailable
+"
+29.215,503,590.3,"database unavailable
+"
+29.233,503,568.6,"database unavailable
+"
+29.248,503,644.5,"database unavailable
+"
+29.263,503,542.3,"database unavailable
+"
+29.267,503,630.1,"database unavailable
+"
+29.285,503,608.6,"database unavailable
+"
+29.301,503,501.1,"database unavailable
+"
+29.331,503,589.7,"database unavailable
+"
+29.347,503,542.4,"database unavailable
+"
+29.362,503,444.5,"database unavailable
+"
+29.378,503,424.1,"database unavailable
+"
+29.393,503,518.4,"database unavailable
+"
+29.409,503,400.3,"database unavailable
+"
+29.424,503,387.2,"database unavailable
+"
+29.44,503,455.3,"database unavailable
+"
+29.465,503,341.1,"database unavailable
+"
+29.481,503,445.8,"database unavailable
+"
+29.496,503,399.8,"database unavailable
+"
+29.511,503,300.8,"database unavailable
+"
+29.522,503,286.6,"database unavailable
+"
+29.538,503,374.3,"database unavailable
+"
+29.553,503,256.1,"database unavailable
+"
+29.569,503,329.2,"database unavailable
+"
+29.584,503,334.2,"database unavailable
+"
+29.615,503,190.8,"database unavailable
+"
+29.631,503,290.7,"database unavailable
+"
+29.646,503,280.7,"database unavailable
+"
+29.65,503,153.1,"database unavailable
+"
+29.682,503,232.0,"database unavailable
+"
+29.697,503,201.5,"database unavailable
+"
+29.712,503,85.5,"database unavailable
+"
+29.728,503,81.5,"database unavailable
+"
+29.748,503,164.5,"database unavailable
+"
+29.763,503,46.3,"database unavailable
+"
+29.78,503,20.3,"database unavailable
+"
+29.809,503,118.6,"database unavailable
+"
+29.815,503,2058.6,"database unavailable
+"
+29.83,503,67.4,"database unavailable
+"
+29.848,503,70.1,"database unavailable
+"
+29.863,503,2011.4,"database unavailable
+"
+29.879,503,49.4,"database unavailable
+"
+29.92,503,2013.6,"database unavailable
+"
+29.925,503,2010.5,"database unavailable
+"
+29.927,503,2007.1,"database unavailable
+"
+29.936,503,2018.2,"database unavailable
+"
+29.952,503,2005.7,"database unavailable
+"
+29.967,503,2005.8,"database unavailable
+"
+29.992,503,2006.2,"database unavailable
+"
+30.008,503,2017.8,"database unavailable
+"
+30.023,503,2011.3,"database unavailable
+"
+30.039,503,2026.6,"database unavailable
+"
+30.064,503,2021.3,"database unavailable
+"
+30.068,503,2016.4,"database unavailable
+"
+30.098,503,2005.9,"database unavailable
+"
+30.113,503,2012.4,"database unavailable
+"
+30.129,503,2010.0,"database unavailable
+"
+30.144,503,2008.6,"database unavailable
+"
+30.16,503,2020.9,"database unavailable
+"
+30.176,503,2005.5,"database unavailable
+"
+30.192,503,2016.2,"database unavailable
+"
+30.207,503,2017.4,"database unavailable
+"
+30.232,503,2011.0,"database unavailable
+"
+30.247,503,2006.0,"database unavailable
+"
+30.263,503,2007.1,"database unavailable
+"
+30.267,503,2012.3,"database unavailable
+"
+30.288,503,2009.5,"database unavailable
+"
+30.315,503,2007.0,"database unavailable
+"
+30.33,503,2006.7,"database unavailable
+"
+30.347,503,2005.1,"database unavailable
+"
+30.362,503,2005.6,"database unavailable
+"
+30.377,503,2003.8,"database unavailable
+"
+30.392,503,2004.8,"database unavailable
+"
+30.408,503,2004.4,"database unavailable
+"
+30.423,503,2004.6,"database unavailable
+"
+30.438,503,2008.6,"database unavailable
+"
+30.454,503,2005.3,"database unavailable
+"
+30.471,503,2006.3,"database unavailable
+"
+30.486,503,2004.6,"database unavailable
+"
+30.503,503,2006.1,"database unavailable
+"
+30.519,503,2004.3,"database unavailable
+"
+30.535,503,2005.6,"database unavailable
+"
+30.567,503,2005.2,"database unavailable
+"
+30.567,503,2004.6,"database unavailable
+"
+30.595,503,2004.7,"database unavailable
+"
+30.61,503,2004.6,"database unavailable
+"
+30.626,503,2004.5,"database unavailable
+"
+30.642,503,2005.2,"database unavailable
+"
+30.665,503,2005.7,"database unavailable
+"
+30.681,503,2006.3,"database unavailable
+"
+30.698,503,2006.1,"database unavailable
+"
+30.714,503,2005.1,"database unavailable
+"
+30.73,503,2005.3,"database unavailable
+"
+30.745,503,2004.3,"database unavailable
+"
+30.75,503,2003.9,"database unavailable
+"
+30.78,503,2005.6,"database unavailable
+"
+30.795,503,2006.0,"database unavailable
+"
+30.811,503,2005.2,"database unavailable
+"
+30.826,503,2005.3,"database unavailable
+"
+30.841,503,2004.9,"database unavailable
+"
+30.857,503,2005.4,"database unavailable
+"
+30.872,503,2004.8,"database unavailable
+"
+30.888,503,2004.9,"database unavailable
+"
+30.913,503,2005.9,"database unavailable
+"
+30.929,503,2006.9,"database unavailable
+"
+30.937,503,2005.3,"database unavailable
+"
+30.952,503,2004.9,"database unavailable
+"
+30.967,503,2009.2,"database unavailable
+"
+30.984,503,2006.2,"database unavailable
+"
+31.015,503,2009.0,"database unavailable
+"
+31.031,503,2029.7,"database unavailable
+"
+31.046,503,2016.3,"database unavailable
+"
+31.066,503,2006.1,"database unavailable
+"
+31.083,503,2005.9,"database unavailable
+"
+31.098,503,2018.3,"database unavailable
+"
+31.113,503,2019.5,"database unavailable
+"
+31.131,503,2013.0,"database unavailable
+"
+31.147,503,2017.4,"database unavailable
+"
+31.163,503,2010.4,"database unavailable
+"
+31.179,503,2017.0,"database unavailable
+"
+31.195,503,2016.1,"database unavailable
+"
+31.21,503,2020.2,"database unavailable
+"
+31.231,503,2013.3,"database unavailable
+"
+31.246,503,2012.7,"database unavailable
+"
+31.265,503,2007.1,"database unavailable
+"
+31.281,503,2010.5,"database unavailable
+"
+31.297,503,2008.1,"database unavailable
+"
+31.313,503,2008.2,"database unavailable
+"
+31.329,503,2015.8,"database unavailable
+"
+31.344,503,2009.3,"database unavailable
+"
+31.361,503,2008.8,"database unavailable
+"
+31.376,503,2004.9,"database unavailable
+"
+31.392,503,2004.4,"database unavailable
+"
+31.408,503,2004.7,"database unavailable
+"
+31.424,503,2004.6,"database unavailable
+"
+31.44,503,2005.4,"database unavailable
+"
+31.463,503,2020.5,"database unavailable
+"
+31.479,503,2014.0,"database unavailable
+"
+31.487,503,2014.8,"database unavailable
+"
+31.502,503,2008.7,"database unavailable
+"
+31.519,503,2013.8,"database unavailable
+"
+31.552,503,2008.0,"database unavailable
+"
+31.564,503,2009.7,"database unavailable
+"
+31.58,503,2012.8,"database unavailable
+"
+31.594,503,2013.3,"database unavailable
+"
+31.605,503,2006.0,"database unavailable
+"
+31.626,503,2012.2,"database unavailable
+"
+31.641,503,2007.7,"database unavailable
+"
+31.655,503,2005.6,"database unavailable
+"
+31.671,503,2035.8,"database unavailable
+"
+31.686,503,2015.9,"database unavailable
+"
+31.715,503,1962.2,"database unavailable
+"
+31.731,503,1956.4,"database unavailable
+"
+31.736,503,2010.0,"database unavailable
+"
+31.769,503,1919.9,"database unavailable
+"
+31.789,503,1902.9,"database unavailable
+"
+31.79,503,1889.8,"database unavailable
+"
+31.832,503,1958.5,"database unavailable
+"
+31.834,503,1960.4,"database unavailable
+"
+31.835,503,1947.1,"database unavailable
+"
+31.869,503,1825.8,"database unavailable
+"
+31.885,503,1904.4,"database unavailable
+"
+31.897,503,1906.9,"database unavailable
+"
+31.912,503,1780.5,"database unavailable
+"
+31.927,503,1867.9,"database unavailable
+"
+31.943,503,1856.2,"database unavailable
+"
+31.958,503,1721.8,"database unavailable
+"
+31.967,503,1829.4,"database unavailable
+"
+31.998,503,1797.8,"database unavailable
+"
+32.014,503,1674.8,"database unavailable
+"
+32.03,503,1666.6,"database unavailable
+"
+32.046,503,1761.2,"database unavailable
+"
+32.061,503,1621.0,"database unavailable
+"
+32.079,503,1611.5,"database unavailable
+"
+32.093,503,1687.3,"database unavailable
+"
+32.114,503,1582.2,"database unavailable
+"
+32.117,503,1664.1,"database unavailable
+"
+32.148,503,1637.4,"database unavailable
+"
+32.165,503,1528.0,"database unavailable
+"
+32.182,503,1495.6,"database unavailable
+"
+32.199,503,1594.9,"database unavailable
+"
+32.213,503,1467.0,"database unavailable
+"
+32.228,503,1450.6,"database unavailable
+"
+32.244,503,1557.8,"database unavailable
+"
+32.259,503,1419.8,"database unavailable
+"
+32.274,503,1407.7,"database unavailable
+"
+32.29,503,1502.5,"database unavailable
+"
+32.307,503,1385.6,"database unavailable
+"
+32.331,503,1460.0,"database unavailable
+"
+32.348,503,1434.7,"database unavailable
+"
+32.365,503,1316.4,"database unavailable
+"
+32.381,503,1415.5,"database unavailable
+"
+32.396,503,1397.4,"database unavailable
+"
+32.413,503,1278.6,"database unavailable
+"
+32.428,503,1269.2,"database unavailable
+"
+32.444,503,1364.3,"database unavailable
+"
+32.459,503,1240.0,"database unavailable
+"
+32.476,503,1305.1,"database unavailable
+"
+32.49,503,1294.2,"database unavailable
+"
+32.504,503,1203.9,"database unavailable
+"
+32.519,503,1272.0,"database unavailable
+"
+32.547,503,1258.6,"database unavailable
+"
+32.562,503,1133.2,"database unavailable
+"
+32.578,503,1117.0,"database unavailable
+"
+32.589,503,1221.5,"database unavailable
+"
+32.603,503,1103.6,"database unavailable
+"
+32.618,503,1184.2,"database unavailable
+"
+32.646,503,1153.0,"database unavailable
+"
+32.663,503,1043.7,"database unavailable
+"
+32.673,503,1021.6,"database unavailable
+"
+32.686,503,1124.1,"database unavailable
+"
+32.713,503,995.3,"database unavailable
+"
+32.728,503,1072.0,"database unavailable
+"
+32.741,503,1065.9,"database unavailable
+"
+32.755,503,951.2,"database unavailable
+"
+32.769,503,1039.7,"database unavailable
+"
+32.79,503,1011.7,"database unavailable
+"
+32.803,503,897.8,"database unavailable
+"
+32.832,503,878.0,"database unavailable
+"
+32.832,503,949.4,"database unavailable
+"
+32.859,503,839.6,"database unavailable
+"
+32.875,503,830.9,"database unavailable
+"
+32.89,503,891.5,"database unavailable
+"
+32.906,503,794.5,"database unavailable
+"
+32.921,503,756.2,"database unavailable
+"
+32.937,503,872.2,"database unavailable
+"
+32.964,503,723.9,"database unavailable
+"
+32.979,503,829.0,"database unavailable
+"
+32.995,503,798.6,"database unavailable
+"
+33.01,503,671.9,"database unavailable
+"
+33.025,503,779.6,"database unavailable
+"
+33.039,503,766.6,"database unavailable
+"
+33.058,503,637.8,"database unavailable
+"
+33.079,503,614.2,"database unavailable
+"
+33.094,503,714.8,"database unavailable
+"
+33.11,503,592.4,"database unavailable
+"
+33.121,503,567.1,"database unavailable
+"
+33.141,503,656.8,"database unavailable
+"
+33.154,503,539.7,"database unavailable
+"
+33.17,503,634.1,"database unavailable
+"
+33.197,503,612.4,"database unavailable
+"
+33.213,503,466.5,"database unavailable
+"
+33.225,503,466.3,"database unavailable
+"
+33.238,503,557.6,"database unavailable
+"
+33.254,503,442.7,"database unavailable
+"
+33.279,503,425.0,"database unavailable
+"
+33.293,503,502.3,"database unavailable
+"
+33.307,503,371.4,"database unavailable
+"
+33.322,503,354.9,"database unavailable
+"
+33.333,503,458.4,"database unavailable
+"
+33.361,503,315.9,"database unavailable
+"
+33.375,503,408.1,"database unavailable
+"
+33.389,503,403.4,"database unavailable
+"
+33.402,503,297.4,"database unavailable
+"
+33.43,503,259.8,"database unavailable
+"
+33.445,503,339.5,"database unavailable
+"
+33.46,503,235.2,"database unavailable
+"
+33.475,503,234.2,"database unavailable
+"
+33.489,503,314.4,"database unavailable
+"
+33.505,503,198.6,"database unavailable
+"
+33.531,503,277.0,"database unavailable
+"
+33.545,503,260.1,"database unavailable
+"
+33.561,503,129.7,"database unavailable
+"
+33.574,503,123.3,"database unavailable
+"
+33.588,503,103.9,"database unavailable
+"
+33.601,503,205.4,"database unavailable
+"
+33.633,503,71.9,"database unavailable
+"
+33.646,503,148.8,"database unavailable
+"
+33.659,503,19.0,"database unavailable
+"
+33.671,503,2020.7,"database unavailable
+"
+33.698,503,112.3,"database unavailable
+"
+33.708,503,2006.8,"database unavailable
+"
+33.723,503,2005.8,"database unavailable
+"
+33.738,503,42.7,"database unavailable
+"
+33.764,503,2009.6,"database unavailable
+"
+33.773,503,2018.4,"database unavailable
+"
+33.806,503,2023.4,"database unavailable
+"
+33.811,503,2017.7,"database unavailable
+"
+33.826,503,2006.5,"database unavailable
+"
+33.839,503,2005.7,"database unavailable
+"
+33.853,503,2007.2,"database unavailable
+"
+33.878,503,2009.5,"database unavailable
+"
+33.894,503,2010.8,"database unavailable
+"
+33.909,503,2013.1,"database unavailable
+"
+33.922,503,2006.5,"database unavailable
+"
+33.935,503,2020.6,"database unavailable
+"
+33.963,503,2006.6,"database unavailable
+"
+33.981,503,2009.3,"database unavailable
+"
+33.994,503,2006.4,"database unavailable
+"
+34.009,503,2007.1,"database unavailable
+"
+34.022,503,2007.7,"database unavailable
+"
+34.036,503,2009.5,"database unavailable
+"
+34.05,503,2008.5,"database unavailable
+"
+34.08,503,2023.2,"database unavailable
+"
+34.095,503,2028.7,"database unavailable
+"
+34.105,503,2018.7,"database unavailable
+"
+34.12,503,2004.6,"database unavailable
+"
+34.148,503,2008.2,"database unavailable
+"
+34.158,503,2007.4,"database unavailable
+"
+34.171,503,2005.4,"database unavailable
+"
+34.205,503,2017.8,"database unavailable
+"
+34.212,503,2010.1,"database unavailable
+"
+34.226,503,2008.0,"database unavailable
+"
+34.239,503,2015.5,"database unavailable
+"
+34.253,503,2007.2,"database unavailable
+"
+34.268,503,2008.2,"database unavailable
+"
+34.296,503,2008.7,"database unavailable
+"
+34.313,503,2013.2,"database unavailable
+"
+34.325,503,2003.8,"database unavailable
+"
+34.338,503,2004.0,"database unavailable
+"
+34.352,503,2006.7,"database unavailable
+"
+34.381,503,2014.3,"database unavailable
+"
+34.394,503,2020.6,"database unavailable
+"
+34.407,503,2011.6,"database unavailable
+"
+34.422,503,2007.2,"database unavailable
+"
+34.435,503,2015.5,"database unavailable
+"
+34.463,503,2018.7,"database unavailable
+"
+34.478,503,2021.9,"database unavailable
+"
+34.491,503,2016.6,"database unavailable
+"
+34.507,503,2013.0,"database unavailable
+"
+34.523,503,2034.2,"database unavailable
+"
+34.538,503,2020.5,"database unavailable
+"
+34.56,503,2005.2,"database unavailable
+"
+34.576,503,2008.9,"database unavailable
+"
+34.592,503,2011.4,"database unavailable
+"
+34.605,503,2014.1,"database unavailable
+"
+34.62,503,2004.3,"database unavailable
+"
+34.648,503,2009.8,"database unavailable
+"
+34.663,503,2008.8,"database unavailable
+"
+34.677,503,2005.9,"database unavailable
+"
+34.691,503,2003.9,"database unavailable
+"
+34.706,503,2005.0,"database unavailable
+"
+34.721,503,2008.3,"database unavailable
+"
+34.748,503,2007.2,"database unavailable
+"
+34.762,503,2023.2,"database unavailable
+"
+34.775,503,2014.4,"database unavailable
+"
+34.789,503,2008.1,"database unavailable
+"
+34.803,503,2006.6,"database unavailable
+"
+34.823,503,2006.5,"database unavailable
+"
+34.837,503,2007.7,"database unavailable
+"
+34.851,503,2006.2,"database unavailable
+"
+34.87,503,2008.4,"database unavailable
+"
+34.896,503,2006.6,"database unavailable
+"
+34.909,503,2005.6,"database unavailable
+"
+34.925,503,2010.6,"database unavailable
+"
+34.94,503,2008.2,"database unavailable
+"
+34.955,503,2007.8,"database unavailable
+"
+34.97,503,2012.1,"database unavailable
+"
+34.985,503,2005.9,"database unavailable
+"
+35.014,503,2021.1,"database unavailable
+"
+35.03,503,2015.9,"database unavailable
+"
+35.046,503,2020.9,"database unavailable
+"
+35.055,503,2012.6,"database unavailable
+"
+35.069,503,2020.0,"database unavailable
+"
+35.087,503,2006.4,"database unavailable
+"
+35.103,503,2009.6,"database unavailable
+"
+35.12,503,2010.4,"database unavailable
+"
+35.145,503,2015.6,"database unavailable
+"
+35.16,503,2013.4,"database unavailable
+"
+35.174,503,2007.6,"database unavailable
+"
+35.187,503,2016.8,"database unavailable
+"
+35.201,503,2005.9,"database unavailable
+"
+35.229,503,2023.1,"database unavailable
+"
+35.242,503,2009.8,"database unavailable
+"
+35.257,503,2007.1,"database unavailable
+"
+35.271,503,2032.0,"database unavailable
+"
+35.285,503,2020.8,"database unavailable
+"
+35.313,503,2014.9,"database unavailable
+"
+35.328,503,2043.8,"database unavailable
+"
+35.344,503,2032.4,"database unavailable
+"
+35.354,503,2022.2,"database unavailable
+"
+35.371,503,2021.8,"database unavailable
+"
+35.397,503,2025.0,"database unavailable
+"
+35.41,503,2020.1,"database unavailable
+"
+35.425,503,2006.0,"database unavailable
+"
+35.439,503,2056.0,"database unavailable
+"
+35.453,503,2043.2,"database unavailable
+"
+35.467,503,2027.7,"database unavailable
+"
+35.494,503,2020.6,"database unavailable
+"
+35.509,503,2006.1,"database unavailable
+"
+35.529,503,2033.5,"database unavailable
+"
+35.538,503,2022.8,"database unavailable
+"
+35.553,503,2008.6,"database unavailable
+"
+35.575,503,2072.8,"database unavailable
+"
+35.597,503,2051.8,"database unavailable
+"
+35.612,503,2043.2,"database unavailable
+"
+35.628,503,2031.5,"database unavailable
+"
+35.641,503,2047.4,"database unavailable
+"
+35.652,503,2007.5,"database unavailable
+"
+35.673,503,2030.3,"database unavailable
+"
+35.687,503,2024.1,"database unavailable
+"
+35.701,503,1958.2,"database unavailable
+"
+35.729,503,1995.9,"database unavailable
+"
+35.743,503,1969.4,"database unavailable
+"
+35.753,503,1914.0,"database unavailable
+"
+35.773,503,1950.6,"database unavailable
+"
+35.786,503,1938.6,"database unavailable
+"
+35.814,503,1844.8,"database unavailable
+"
+35.827,503,1835.9,"database unavailable
+"
+35.841,503,1885.2,"database unavailable
+"
+35.857,503,1804.8,"database unavailable
+"
+35.87,503,1798.0,"database unavailable
+"
+35.898,503,1846.6,"database unavailable
+"
+35.912,503,1764.6,"database unavailable
+"
+35.928,503,1803.7,"database unavailable
+"
+35.943,503,1792.7,"database unavailable
+"
+35.959,503,1731.2,"database unavailable
+"
+35.973,503,1770.2,"database unavailable
+"
+35.988,503,1753.8,"database unavailable
+"
+36.004,503,1693.4,"database unavailable
+"
+36.02,503,1671.3,"database unavailable
+"
+36.047,503,1692.7,"database unavailable
+"
+36.063,503,1627.1,"database unavailable
+"
+36.074,503,1613.5,"database unavailable
+"
+36.086,503,1659.4,"database unavailable
+"
+36.12,503,1575.5,"database unavailable
+"
+36.127,503,1615.5,"database unavailable
+"
+36.143,503,1605.6,"database unavailable
+"
+36.157,503,1544.2,"database unavailable
+"
+36.171,503,1567.6,"database unavailable
+"
+36.184,503,1558.0,"database unavailable
+"
+36.212,503,1472.1,"database unavailable
+"
+36.223,503,1438.3,"database unavailable
+"
+36.235,503,1514.9,"database unavailable
+"
+36.262,503,1400.3,"database unavailable
+"
+36.272,503,1472.6,"database unavailable
+"
+36.296,503,1452.5,"database unavailable
+"
+36.309,503,1351.8,"database unavailable
+"
+36.322,503,1370.4,"database unavailable
+"
+36.344,503,1401.0,"database unavailable
+"
+36.359,503,1324.0,"database unavailable
+"
+36.375,503,1288.6,"database unavailable
+"
+36.389,503,1355.4,"database unavailable
+"
+36.406,503,1295.2,"database unavailable
+"
+36.419,503,1269.7,"database unavailable
+"
+36.447,503,1292.7,"database unavailable
+"
+36.461,503,1204.7,"database unavailable
+"
+36.478,503,1180.3,"database unavailable
+"
+36.485,503,1262.8,"database unavailable
+"
+36.5,503,1167.0,"database unavailable
+"
+36.532,503,1215.3,"database unavailable
+"
+36.542,503,1208.8,"database unavailable
+"
+36.556,503,1122.0,"database unavailable
+"
+36.57,503,1171.1,"database unavailable
+"
+36.596,503,1082.3,"database unavailable
+"
+36.612,503,1134.5,"database unavailable
+"
+36.627,503,1092.6,"database unavailable
+"
+36.639,503,1056.3,"database unavailable
+"
+36.656,503,1090.9,"database unavailable
+"
+36.68,503,983.7,"database unavailable
+"
+36.694,503,1018.5,"database unavailable
+"
+36.708,503,954.0,"database unavailable
+"
+36.722,503,943.3,"database unavailable
+"
+36.736,503,983.2,"database unavailable
+"
+36.763,503,949.6,"database unavailable
+"
+36.773,503,892.9,"database unavailable
+"
+36.786,503,935.9,"database unavailable
+"
+36.815,503,849.0,"database unavailable
+"
+36.825,503,854.1,"database unavailable
+"
+36.839,503,880.8,"database unavailable
+"
+36.855,503,834.3,"database unavailable
+"
+36.873,503,854.9,"database unavailable
+"
+36.887,503,840.5,"database unavailable
+"
+36.902,503,791.5,"database unavailable
+"
+36.93,503,755.5,"database unavailable
+"
+36.945,503,790.9,"database unavailable
+"
+36.962,503,717.3,"database unavailable
+"
+36.979,503,754.3,"database unavailable
+"
+36.994,503,757.9,"database unavailable
+"
+37.01,503,685.3,"database unavailable
+"
+37.026,503,655.8,"database unavailable
+"
+37.047,503,684.8,"database unavailable
+"
+37.063,503,628.0,"database unavailable
+"
+37.079,503,668.8,"database unavailable
+"
+37.097,503,648.4,"database unavailable
+"
+37.114,503,568.8,"database unavailable
+"
+37.129,503,584.2,"database unavailable
+"
+37.147,503,564.4,"database unavailable
+"
+37.163,503,522.3,"database unavailable
+"
+37.18,503,516.9,"database unavailable
+"
+37.202,503,511.5,"database unavailable
+"
+37.209,503,477.9,"database unavailable
+"
+37.225,503,462.3,"database unavailable
+"
+37.244,503,468.3,"database unavailable
+"
+37.256,503,424.2,"database unavailable
+"
+37.272,503,405.1,"database unavailable
+"
+37.292,503,426.0,"database unavailable
+"
+37.304,503,379.4,"database unavailable
+"
+37.324,503,398.9,"database unavailable
+"
+37.339,503,400.6,"database unavailable
+"
+37.351,503,341.4,"database unavailable
+"
+37.38,503,308.0,"database unavailable
+"
+37.396,503,331.2,"database unavailable
+"
+37.412,503,279.3,"database unavailable
+"
+37.429,503,300.1,"database unavailable
+"
+37.443,503,293.5,"database unavailable
+"
+37.464,503,227.7,"database unavailable
+"
+37.474,503,267.9,"database unavailable
+"
+37.49,503,247.5,"database unavailable
+"
+37.505,503,174.4,"database unavailable
+"
+37.53,503,151.9,"database unavailable
+"
+37.556,503,175.9,"database unavailable
+"
+37.564,503,102.9,"database unavailable
+"
+37.6,503,2039.0,"database unavailable
+"
+37.619,503,125.1,"database unavailable
+"
+37.622,503,125.0,"database unavailable
+"
+37.627,503,2031.8,"database unavailable
+"
+37.644,503,2032.2,"database unavailable
+"
+37.663,503,48.6,"database unavailable
+"
+37.674,503,2014.2,"database unavailable
+"
+37.694,503,2026.1,"database unavailable
+"
+37.721,503,2014.3,"database unavailable
+"
+37.721,503,2014.3,"database unavailable
+"
+37.751,503,2007.4,"database unavailable
+"
+37.762,503,2006.1,"database unavailable
+"
+37.778,503,2006.4,"database unavailable
+"
+37.793,503,2006.6,"database unavailable
+"
+37.809,503,2008.7,"database unavailable
+"
+37.825,503,2003.8,"database unavailable
+"
+37.84,503,2017.2,"database unavailable
+"
+37.855,503,2007.8,"database unavailable
+"
+37.868,503,2023.7,"database unavailable
+"
+37.897,503,2009.5,"database unavailable
+"
+37.912,503,2027.8,"database unavailable
+"
+37.929,503,2013.8,"database unavailable
+"
+37.945,503,2007.2,"database unavailable
+"
+37.96,503,2006.5,"database unavailable
+"
+37.976,503,2004.4,"database unavailable
+"
+37.991,503,2026.3,"database unavailable
+"
+38.007,503,2011.3,"database unavailable
+"
+38.031,503,2013.9,"database unavailable
+"
+38.046,503,2006.6,"database unavailable
+"
+38.063,503,2006.0,"database unavailable
+"
+38.078,503,2005.7,"database unavailable
+"
+38.093,503,2004.1,"database unavailable
+"
+38.109,503,2004.8,"database unavailable
+"
+38.125,503,2003.6,"database unavailable
+"
+38.14,503,2004.7,"database unavailable
+"
+38.157,503,2005.2,"database unavailable
+"
+38.172,503,2007.2,"database unavailable
+"
+38.186,503,2006.8,"database unavailable
+"
+38.206,503,2006.3,"database unavailable
+"
+38.23,503,2007.9,"database unavailable
+"
+38.248,503,2003.6,"database unavailable
+"
+38.261,503,2007.1,"database unavailable
+"
+38.277,503,2009.0,"database unavailable
+"
+38.292,503,2004.6,"database unavailable
+"
+38.313,503,2006.4,"database unavailable
+"
+38.33,503,2008.1,"database unavailable
+"
+38.346,503,2008.2,"database unavailable
+"
+38.36,503,2007.2,"database unavailable
+"
+38.376,503,2003.4,"database unavailable
+"
+38.395,503,2005.5,"database unavailable
+"
+38.411,503,2007.6,"database unavailable
+"
+38.434,503,2007.0,"database unavailable
+"
+38.447,503,2009.2,"database unavailable
+"
+38.463,503,2011.6,"database unavailable
+"
+38.479,503,2016.9,"database unavailable
+"
+38.494,503,2011.2,"database unavailable
+"
+38.519,503,2006.5,"database unavailable
+"
+38.535,503,2061.1,"database unavailable
+"
+38.542,503,2086.1,"database unavailable
+"
+38.558,503,2042.8,"database unavailable
+"
+38.573,503,2022.8,"database unavailable
+"
+38.593,503,2035.2,"database unavailable
+"
+38.606,503,2021.5,"database unavailable
+"
+38.62,503,2008.4,"database unavailable
+"
+38.635,503,2010.2,"database unavailable
+"
+38.655,503,2017.0,"database unavailable
+"
+38.669,503,2020.3,"database unavailable
+"
+38.699,503,2010.7,"database unavailable
+"
+38.717,503,2015.7,"database unavailable
+"
+38.729,503,2019.1,"database unavailable
+"
+38.745,503,2014.3,"database unavailable
+"
+38.759,503,2011.4,"database unavailable
+"
+38.775,503,2022.2,"database unavailable
+"
+38.791,503,2007.4,"database unavailable
+"
+38.808,503,2008.9,"database unavailable
+"
+38.822,503,2059.7,"database unavailable
+"
+38.837,503,2042.1,"database unavailable
+"
+38.863,503,2018.3,"database unavailable
+"
+38.868,503,2021.2,"database unavailable
+"
+38.906,503,2053.5,"database unavailable
+"
+38.914,503,2045.2,"database unavailable
+"
+38.93,503,2027.2,"database unavailable
+"
+38.936,503,2022.9,"database unavailable
+"
+38.951,503,2042.0,"database unavailable
+"
+38.979,503,2044.9,"database unavailable
+"
+38.987,503,2039.0,"database unavailable
+"
+39.002,503,2026.2,"database unavailable
+"
+39.034,503,2015.8,"database unavailable
+"
+39.04,503,2010.0,"database unavailable
+"
+39.055,503,2009.9,"database unavailable
+"
+39.071,503,2020.0,"database unavailable
+"
+39.088,503,2054.7,"database unavailable
+"
+39.117,503,2030.2,"database unavailable
+"
+39.135,503,2019.8,"database unavailable
+"
+39.147,503,2017.0,"database unavailable
+"
+39.163,503,2034.2,"database unavailable
+"
+39.179,503,2021.8,"database unavailable
+"
+39.195,503,2021.8,"database unavailable
+"
+39.21,503,2012.6,"database unavailable
+"
+39.226,503,2013.3,"database unavailable
+"
+39.241,503,2017.9,"database unavailable
+"
+39.257,503,2010.2,"database unavailable
+"
+39.273,503,2007.5,"database unavailable
+"
+39.288,503,2013.7,"database unavailable
+"
+39.306,503,2012.6,"database unavailable
+"
+39.332,503,2022.7,"database unavailable
+"
+39.345,503,2012.2,"database unavailable
+"
+39.36,503,2017.6,"database unavailable
+"
+39.378,503,2015.6,"database unavailable
+"
+39.394,503,2007.0,"database unavailable
+"
+39.408,503,2025.3,"database unavailable
+"
+39.425,503,2032.4,"database unavailable
+"
+39.444,503,2015.5,"database unavailable
+"
+39.459,503,2014.3,"database unavailable
+"
+39.475,503,2015.4,"database unavailable
+"
+39.49,503,2006.5,"database unavailable
+"
+39.505,503,2017.0,"database unavailable
+"
+39.522,503,2009.8,"database unavailable
+"
+39.537,503,2004.7,"database unavailable
+"
+39.552,503,2020.0,"database unavailable
+"
+39.585,503,2021.9,"database unavailable
+"
+39.585,503,2022.7,"database unavailable
+"
+39.615,503,2009.5,"database unavailable
+"
+39.631,503,2023.0,"database unavailable
+"
+39.646,503,2008.9,"database unavailable
+"
+39.661,503,2008.7,"database unavailable
+"
+39.677,503,2013.5,"database unavailable
+"
+39.692,503,1991.3,"database unavailable
+"
+39.708,503,2020.0,"database unavailable
+"
+39.724,503,2014.6,"database unavailable
+"
+39.74,503,1937.1,"database unavailable
+"
+39.755,503,2006.3,"database unavailable
+"
+39.779,503,1898.8,"database unavailable
+"
+39.794,503,1884.2,"database unavailable
+"
+39.809,503,2006.7,"database unavailable
+"
+39.831,503,2022.3,"database unavailable
+"
+39.846,503,1832.5,"database unavailable
+"
+39.861,503,2014.1,"database unavailable
+"
+39.88,503,2015.1,"database unavailable
+"
+39.895,503,1783.6,"database unavailable
+"
+39.92,503,2032.0,"database unavailable
+"
+39.936,503,1742.7,"database unavailable
+"
+39.947,503,1732.9,"database unavailable
+"
+39.962,503,2007.8,"database unavailable
+"
+39.978,503,2006.6,"database unavailable
+"
+39.993,503,1683.3,"database unavailable
+"

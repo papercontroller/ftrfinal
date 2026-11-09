@@ -1,0 +1,52 @@
+groups:
+  - name: university_system_alerts
+    rules:
+      - alert: ServiceInstanceDown
+        expr: up == 0
+        for: 6s
+        labels:
+          severity: critical
+          category: availability
+        annotations:
+          summary: "Instance down: {{ $labels.instance }}"
+          description: "Prometheus cannot scrape {{ $labels.instance }} ({{ $labels.job }}). Docker restarts it; operator checks the logs if it stays down."
+
+      - alert: HighErrorRate
+        expr: (sum by (service) (rate(http_requests_total{status=~"5.."}[30s])) / sum by (service) (rate(http_requests_total[30s]))) * 100 > 5
+        for: 10s
+        labels:
+          severity: critical
+          category: dependability
+        annotations:
+          summary: "5xx rate above 5% on {{ $labels.service }}"
+          description: "{{ $labels.service }} fails {{ $value }}% of requests. Operator follows a correlation ID from the gateway log to the failing service."
+
+      - alert: HighRequestLatencyP95
+        expr: histogram_quantile(0.95, sum by (le, service) (rate(http_request_duration_seconds_bucket[30s]))) > 0.3
+        for: 15s
+        labels:
+          severity: warning
+          category: performance
+        annotations:
+          summary: "p95 latency above 300ms on {{ $labels.service }}"
+          description: "p95 of {{ $labels.service }} is {{ $value }}s. Operator checks the database and the load level."
+
+      - alert: CircuitBreakerOpen
+        expr: circuit_breaker_state == 2
+        for: 2s
+        labels:
+          severity: critical
+          category: dependability
+        annotations:
+          summary: "Circuit breaker open on {{ $labels.instance }}"
+          description: "{{ $labels.breaker_name }} is open, so transcripts are served in degraded mode. Operator restores the database."
+
+      - alert: AbuseRateLimitTriggered
+        expr: sum(rate(rate_limit_drops_total[30s])) > 10
+        for: 5s
+        labels:
+          severity: warning
+          category: security
+        annotations:
+          summary: "Requests blocked by the rate limiter"
+          description: "{{ $value }} req/s are dropped at the gateway. Operator looks up the client IP in the WARN logs."

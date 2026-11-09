@@ -1,0 +1,349 @@
+{
+ "note": "Runs invalidated because the Windows host went to sleep during them (System log Kernel-Power 42 at 11:52:06 and 12:09:43 on 2026-11-09, wake at 11:56 and 12:20). They were repeated with sleep blocked; kept here unchanged.",
+ "E1_final_all_reps": {
+  "repetitions": 5,
+  "runs": [
+   {
+    "total": 450,
+    "success": 450,
+    "failed": 0,
+    "error_rate_pct": 0.0,
+    "availability_pct": 100.0,
+    "latency_avg_ms": 31.6,
+    "latency_p95_ms": 27.4,
+    "latency_max_ms": 1107.9,
+    "status_codes": {
+     "200": 450
+    },
+    "crash_output": "",
+    "failure_window": {
+     "total": 45,
+     "success": 45,
+     "failed": 0,
+     "error_rate_pct": 0.0,
+     "availability_pct": 100.0,
+     "latency_avg_ms": 206.9,
+     "latency_p95_ms": 1097.3,
+     "latency_max_ms": 1107.9,
+     "status_codes": {
+      "200": 45
+     }
+    },
+    "detection_time_sec": 1.48,
+    "recovery_time_sec": 3.37,
+    "victim_state_after": "running restarts=3",
+    "alerts": [],
+    "rep": 1
+   },
+   {
+    "total": 450,
+    "success": 450,
+    "failed": 0,
+    "error_rate_pct": 0.0,
+    "availability_pct": 100.0,
+    "latency_avg_ms": 32.0,
+    "latency_p95_ms": 27.1,
+    "latency_max_ms": 1190.5,
+    "status_codes": {
+     "200": 450
+    },
+    "crash_output": "",
+    "failure_window": {
+     "total": 46,
+     "success": 46,
+     "failed": 0,
+     "error_rate_pct": 0.0,
+     "availability_pct": 100.0,
+     "latency_avg_ms": 209.3,
+     "latency_p95_ms": 1106.7,
+     "latency_max_ms": 1190.5,
+     "status_codes": {
+      "200": 46
+     }
+    },
+    "detection_time_sec": 1.5,
+    "recovery_time_sec": 4.3,
+    "victim_state_after": "running restarts=4",
+    "alerts": [],
+    "rep": 2
+   },
+   {
+    "total": 450,
+    "success": 202,
+    "failed": 248,
+    "error_rate_pct": 55.11,
+    "availability_pct": 44.89,
+    "latency_avg_ms": 43415.7,
+    "latency_p95_ms": 665947.5,
+    "latency_max_ms": 668199.2,
+    "status_codes": {
+     "200": 202,
+     "0": 8,
+     "429": 240
+    },
+    "crash_output": "",
+    "failure_window": {
+     "total": 10,
+     "success": 9,
+     "failed": 1,
+     "error_rate_pct": 10.0,
+     "availability_pct": 90.0,
+     "latency_avg_ms": 665933.1,
+     "latency_p95_ms": 668186.9,
+     "latency_max_ms": 668186.9,
+     "status_codes": {
+      "200": 9,
+      "0": 1
+     }
+    },
+    "detection_time_sec": 667.67,
+    "recovery_time_sec": null,
+    "victim_state_after": "restarting restarts=5",
+    "alerts": [],
+    "rep": 3
+   },
+   {
+    "total": 450,
+    "success": 450,
+    "failed": 0,
+    "error_rate_pct": 0.0,
+    "availability_pct": 100.0,
+    "latency_avg_ms": 8.5,
+    "latency_p95_ms": 21.7,
+    "latency_max_ms": 76.3,
+    "status_codes": {
+     "200": 450
+    },
+    "crash_output": "",
+    "failure_window": {
+     "total": 44,
+     "success": 44,
+     "failed": 0,
+     "error_rate_pct": 0.0,
+     "availability_pct": 100.0,
+     "latency_avg_ms": 16.2,
+     "latency_p95_ms": 36.3,
+     "latency_max_ms": 76.3,
+     "status_codes": {
+      "200": 44
+     }
+    },
+    "detection_time_sec": 0.64,
+    "recovery_time_sec": 4.24,
+    "victim_state_after": "running restarts=6",
+    "alerts": [],
+    "rep": 4
+   },
+   {
+    "total": 450,
+    "success": 450,
+    "failed": 0,
+    "error_rate_pct": 0.0,
+    "availability_pct": 100.0,
+    "latency_avg_ms": 8.2,
+    "latency_p95_ms": 21.5,
+    "latency_max_ms": 93.5,
+    "status_codes": {
+     "200": 450
+    },
+    "crash_output": "",
+    "failure_window": {
+     "total": 46,
+     "success": 46,
+     "failed": 0,
+     "error_rate_pct": 0.0,
+     "availability_pct": 100.0,
+     "latency_avg_ms": 13.5,
+     "latency_p95_ms": 22.4,
+     "latency_max_ms": 93.5,
+     "status_codes": {
+      "200": 46
+     }
+    },
+    "detection_time_sec": 0.36,
+    "recovery_time_sec": 1.36,
+    "victim_state_after": "running restarts=7",
+    "alerts": [],
+    "rep": 5
+   }
+  ]
+ },
+ "E12_final_all_reps": {
+  "repetitions": 3,
+  "runs": [
+   {
+    "total": 3000,
+    "success": 2999,
+    "failed": 1,
+    "error_rate_pct": 0.03,
+    "availability_pct": 99.97,
+    "latency_avg_ms": 15.4,
+    "latency_p95_ms": 41.4,
+    "latency_max_ms": 1108.6,
+    "status_codes": {
+     "201": 299,
+     "200": 2700,
+     "502": 1
+    },
+    "duration_sec": 300,
+    "replicas": 6,
+    "incidents": [
+     {
+      "t_sec": 63.8,
+      "victim": "academic-service-1",
+      "gap_sec": 63.7,
+      "detect_sec": 0.34,
+      "repair_sec": 1.32
+     },
+     {
+      "t_sec": 122.3,
+      "victim": "academic-service-2",
+      "gap_sec": 57.2,
+      "detect_sec": 0.43,
+      "repair_sec": 3.79
+     },
+     {
+      "t_sec": 205.5,
+      "victim": "academic-service-1",
+      "gap_sec": 79.4,
+      "detect_sec": 1.06,
+      "repair_sec": 1.59
+     },
+     {
+      "t_sec": 239.5,
+      "victim": "payment-service-2",
+      "gap_sec": 32.4,
+      "detect_sec": 1.0,
+      "repair_sec": 3.54
+     }
+    ],
+    "seconds_with_failures": 1,
+    "seconds_observed": 300,
+    "payment_rows": 299,
+    "duplicate_rows": 0,
+    "rep": 1
+   },
+   {
+    "total": 3000,
+    "success": 2923,
+    "failed": 77,
+    "error_rate_pct": 2.57,
+    "availability_pct": 97.43,
+    "latency_avg_ms": 1935.3,
+    "latency_p95_ms": 2023.0,
+    "latency_max_ms": 251817.9,
+    "status_codes": {
+     "201": 256,
+     "200": 2667,
+     "500": 1,
+     "0": 36,
+     "504": 31,
+     "503": 9
+    },
+    "duration_sec": 300,
+    "replicas": 6,
+    "incidents": [
+     {
+      "t_sec": 29.6,
+      "victim": "payment-service-2",
+      "gap_sec": 29.4,
+      "detect_sec": 5.07,
+      "repair_sec": 5.1
+     },
+     {
+      "t_sec": 373.3,
+      "victim": "academic-service-2",
+      "gap_sec": 91.8,
+      "detect_sec": 1.29,
+      "repair_sec": 3.8
+     }
+    ],
+    "seconds_with_failures": 14,
+    "seconds_observed": 78,
+    "payment_rows": 258,
+    "duplicate_rows": 0,
+    "rep": 2
+   },
+   {
+    "total": 3000,
+    "success": 2997,
+    "failed": 3,
+    "error_rate_pct": 0.1,
+    "availability_pct": 99.9,
+    "latency_avg_ms": 13.6,
+    "latency_p95_ms": 37.2,
+    "latency_max_ms": 1091.4,
+    "status_codes": {
+     "201": 297,
+     "200": 2700,
+     "502": 3
+    },
+    "duration_sec": 300,
+    "replicas": 6,
+    "incidents": [
+     {
+      "t_sec": 27.6,
+      "victim": "payment-service-1",
+      "gap_sec": 27.5,
+      "detect_sec": 0.49,
+      "repair_sec": 1.74
+     },
+     {
+      "t_sec": 39.3,
+      "victim": "payment-service-2",
+      "gap_sec": 10.0,
+      "detect_sec": 1.49,
+      "repair_sec": 4.02
+     },
+     {
+      "t_sec": 67.0,
+      "victim": "payment-service-2",
+      "gap_sec": 23.7,
+      "detect_sec": 5.07,
+      "repair_sec": 5.08
+     },
+     {
+      "t_sec": 92.8,
+      "victim": "student-service-2",
+      "gap_sec": 20.7,
+      "detect_sec": 0.95,
+      "repair_sec": 1.49
+     },
+     {
+      "t_sec": 110.6,
+      "victim": "payment-service-2",
+      "gap_sec": 16.3,
+      "detect_sec": 0.39,
+      "repair_sec": 3.65
+     },
+     {
+      "t_sec": 142.2,
+      "victim": "student-service-1",
+      "gap_sec": 27.9,
+      "detect_sec": 5.03,
+      "repair_sec": 5.05
+     },
+     {
+      "t_sec": 150.9,
+      "victim": "payment-service-1",
+      "gap_sec": 3.7,
+      "detect_sec": 0.41,
+      "repair_sec": 1.38
+     },
+     {
+      "t_sec": 234.9,
+      "victim": "student-service-1",
+      "gap_sec": 82.6,
+      "detect_sec": 0.36,
+      "repair_sec": 1.36
+     }
+    ],
+    "seconds_with_failures": 3,
+    "seconds_observed": 300,
+    "payment_rows": 297,
+    "duplicate_rows": 0,
+    "rep": 3
+   }
+  ]
+ }
+}

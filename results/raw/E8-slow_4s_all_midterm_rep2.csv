@@ -1,0 +1,177 @@
+t_sec,status,latency_ms,body_prefix
+0.002,200,5.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+0.349,200,14.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+0.667,200,23.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+1.007,200,24.0,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+1.338,200,13.9,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+1.68,200,24.7,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+2.007,200,24.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+2.343,200,11.8,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+2.683,200,23.4,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+3.001,200,7.7,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+3.349,200,6.1,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+3.67,200,24.7,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+4.008,200,9.3,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+4.346,200,6.2,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+4.679,200,7.4,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+5.01,200,23.7,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+5.34,200,14.5,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+5.683,200,8219.8,"{""data"":""Cached transcript preview (Database temporarily una"
+6.009,200,5.9,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+6.348,504,4018.8,"<html>
+<head><title>504 Gateway Time-out</title></head>
+<b"
+6.676,200,8010.0,"{""data"":""Cached transcript preview (Database temporarily una"
+7.004,504,4008.5,"<html>
+<head><title>504 Gateway Time-out</title></head>
+<b"
+7.344,200,8007.4,"{""data"":""Cached transcript preview (Database temporarily una"
+7.674,504,4007.7,"<html>
+<head><title>504 Gateway Time-out</title></head>
+<b"
+8.006,200,6020.9,"{""data"":""Cached transcript preview (Database temporarily una"
+8.346,504,4007.8,"<html>
+<head><title>504 Gateway Time-out</title></head>
+<b"
+8.678,502,2005.8,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+9.013,502,2020.7,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+9.336,502,2010.2,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+9.676,502,2009.0,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+10.009,502,2019.5,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+10.348,502,2011.8,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+10.678,502,20.9,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+11.006,502,20.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+11.344,502,11.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+11.669,502,21.1,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+12.01,502,8.7,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+12.341,502,20.1,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+12.681,502,10.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+13.002,502,20.0,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+13.341,502,6.9,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+13.68,502,22.7,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+14.009,502,20.0,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+14.343,502,22.0,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+14.672,502,9.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+15.0,502,5.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+15.348,502,4.7,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+15.681,502,18.9,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+16.009,502,10.8,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+16.343,200,6635.2,"{""data"":""Cached transcript preview (Database temporarily una"
+16.67,502,18.1,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+16.999,502,6.3,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+17.337,502,18.7,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+17.683,502,4.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+18.01,502,5.3,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+18.334,200,6693.6,"{""data"":""Cached transcript preview (Database temporarily una"
+18.674,502,5.2,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+19.012,502,5.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+19.339,502,5.1,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+19.683,502,10.3,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+20.001,502,16.2,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+20.339,502,10.3,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+20.671,502,21.0,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+21.008,502,9.5,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+21.339,502,18.3,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+21.68,502,8.3,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+22.006,502,19.4,"<html>
+<head><title>502 Bad Gateway</title></head>
+<body>"
+22.335,200,46.1,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+22.676,200,6.4,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+23.003,200,6.5,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+23.34,200,6.4,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+23.673,200,6.3,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+24.006,200,13.7,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+24.345,200,19.8,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+24.675,200,32.5,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+25.01,200,12.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+25.349,200,13.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+25.672,200,11.8,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+26.007,200,22.8,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+26.345,200,13.5,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+26.681,200,14.1,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+27.009,200,6.6,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+27.342,200,25.1,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+27.681,200,21.0,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+28.016,200,7.2,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+28.34,200,14.0,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+28.679,200,28.3,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+29.011,200,20.1,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+29.341,200,20.2,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
+29.677,200,20.9,"{""gpa"": 3.8, ""credits"": 120, ""status"": ""Active""}"
